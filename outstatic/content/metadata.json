@@ -1,6 +1,6 @@
 {
-  "commit": "f1d49d79a01c1d85981f368c71944529e6583183",
-  "generated": "2025-03-03T18:33:01.998Z",
+  "commit": "d1e5b12bb50569d37ad84785cb5fa255c810365c",
+  "generated": "2025-03-03T18:33:22.271Z",
   "metadata": [
     {
       "__outstatic": {
@@ -136,22 +136,6 @@
       "slug": "flycream-travel",
       "status": "published",
       "title": "Flycream Travel"
-    },
-    {
-      "__outstatic": {
-        "commit": "f1d49d79a01c1d85981f368c71944529e6583183",
-        "hash": "3713818160",
-        "path": "outstatic/content/services/fundraising.mdx"
-      },
-      "author": {
-        "name": "Shay",
-        "picture": "https://avatars.githubusercontent.com/u/10519011?v=4"
-      },
-      "collection": "services",
-      "publishedAt": "2025-03-03T18:02:22.403Z",
-      "slug": "fundraising",
-      "status": "draft",
-      "title": "Fundraising"
     }
   ]
 }
