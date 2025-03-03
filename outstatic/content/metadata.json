@@ -1,25 +1,7 @@
 {
-  "commit": "19553029dcd6a1645e22d30fbd5ef14cec9ceeeb",
-  "generated": "2025-03-03T18:34:49.684Z",
+  "commit": "7a68007becfd825028cb6fa3250211b51f2ace18",
+  "generated": "2025-03-03T18:50:31.821Z",
   "metadata": [
-    {
-      "__outstatic": {
-        "commit": "2e47122b5b6d49d6d1ddb15bcd33edc4a0c1256e",
-        "hash": "217348983",
-        "path": "/outstatic/content/pages/home.md"
-      },
-      "author": {
-        "name": "Andre Vitorio",
-        "picture": ""
-      },
-      "collection": "pages",
-      "coverImage": "",
-      "description": "This is my blog.",
-      "publishedAt": "2022-03-17T05:35:07.322Z",
-      "slug": "home",
-      "status": "published",
-      "title": "Home"
-    },
     {
       "__outstatic": {
         "commit": "bf4993b965319da4cb9de4a3810fb4af12bdebd6",
@@ -168,6 +150,24 @@
       "slug": "hopeworks-foundation",
       "status": "draft",
       "title": "HopeWorks Foundation"
+    },
+    {
+      "__outstatic": {
+        "commit": "7a68007becfd825028cb6fa3250211b51f2ace18",
+        "hash": "1693002771",
+        "path": "outstatic/content/pages/home.md"
+      },
+      "author": {
+        "name": "Andre Vitorio",
+        "picture": ""
+      },
+      "collection": "pages",
+      "coverImage": "",
+      "description": "This is my blog.",
+      "publishedAt": "2022-03-17T05:35:07.322Z",
+      "slug": "home",
+      "status": "published",
+      "title": "Home"
     }
   ]
 }
