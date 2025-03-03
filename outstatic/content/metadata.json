@@ -1,6 +1,6 @@
 {
-  "commit": "4b3b3fe06041a00daf2c97c0ad2ab132d04cc1c3",
-  "generated": "2025-03-03T18:54:04.880Z",
+  "commit": "4628e3765afe630ca3e417078a8a82e107e2acf1",
+  "generated": "2025-03-03T22:17:39.722Z",
   "metadata": [
     {
       "__outstatic": {
@@ -153,25 +153,6 @@
     },
     {
       "__outstatic": {
-        "commit": "3106487ee9b2f91347fb75f33a8eb3b60f8cceeb",
-        "hash": "2431106976",
-        "path": "outstatic/content/pages/home.md"
-      },
-      "author": {
-        "name": "Shay",
-        "picture": ""
-      },
-      "buttonText": "Book a call",
-      "collection": "pages",
-      "coverImage": "",
-      "description": "This is my blog.",
-      "publishedAt": "2025-03-03T05:00:00.000Z",
-      "slug": "home",
-      "status": "published",
-      "title": "Home"
-    },
-    {
-      "__outstatic": {
         "commit": "4b3b3fe06041a00daf2c97c0ad2ab132d04cc1c3",
         "hash": "2038088824",
         "path": "outstatic/content/pages/contact.mdx"
@@ -185,6 +166,26 @@
       "slug": "contact",
       "status": "published",
       "title": "Contact"
+    },
+    {
+      "__outstatic": {
+        "commit": "4628e3765afe630ca3e417078a8a82e107e2acf1",
+        "hash": "4058873883",
+        "path": "outstatic/content/pages/home.md"
+      },
+      "author": {
+        "name": "Shay",
+        "picture": ""
+      },
+      "buttonLink": "/contact",
+      "buttonText": "Book a call",
+      "collection": "pages",
+      "coverImage": "",
+      "description": "This is my blog.",
+      "publishedAt": "2025-03-03T05:00:00.000Z",
+      "slug": "home",
+      "status": "published",
+      "title": "Home"
     }
   ]
 }
