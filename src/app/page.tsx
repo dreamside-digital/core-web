@@ -21,14 +21,27 @@ export default async function Index() {
         </div>
       </section>
 
-      <section id="services" className="pt-16 pb-16 bg-cream">
-        <div className="container mx-auto px-4 mx-auto text-center">
-          <div
-            className="prose lg:prose-2xl prose-cream prose-h1:text-cream text-cream"
-            dangerouslySetInnerHTML={{ __html: content }}
-          />
-          <div className="flex justify-center mt-8">
-            <Link href="/contact" className="btn btn-emerald">Book a call</Link>
+      <section id="services" className="pt-16 pb-16 bg-cream text-forest">
+        <div className="container mx-auto px-4 mx-auto">
+          <h2 className="text-forest uppercase tracking-wider font-semibold text-center mb-8">Our Services</h2>
+
+          <div className="">
+            {allServices.map(async (service) => {
+              const content = await markdownToHtml(service.content)
+              return (
+                <div key={service.title} className="w-full flex flex-col md:flex-row gap-6 my-12">
+                  <div className="basis-1/2">
+                    <h3 className="text-forest text-5xl font-title mb-4">{service.title}</h3>
+                  </div>
+                  <div className="basis-1/2">
+                    <div
+                      className="prose text-forest"
+                      dangerouslySetInnerHTML={{ __html: content }}
+                    />
+                  </div>
+                </div>
+              )
+            })}
           </div>
         </div>
       </section>
