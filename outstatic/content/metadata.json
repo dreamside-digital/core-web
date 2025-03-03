@@ -1,6 +1,6 @@
 {
-  "commit": "c5d0fda09718a277aa09f41118e1987cb4cfe01c",
-  "generated": "2025-03-03T18:33:44.991Z",
+  "commit": "19553029dcd6a1645e22d30fbd5ef14cec9ceeeb",
+  "generated": "2025-03-03T18:34:49.684Z",
   "metadata": [
     {
       "__outstatic": {
@@ -152,6 +152,22 @@
       "slug": "fundraising",
       "status": "draft",
       "title": "Fundraising"
+    },
+    {
+      "__outstatic": {
+        "commit": "19553029dcd6a1645e22d30fbd5ef14cec9ceeeb",
+        "hash": "3036207999",
+        "path": "outstatic/content/case-studies/hopeworks-foundation.mdx"
+      },
+      "author": {
+        "name": "Shay",
+        "picture": "https://avatars.githubusercontent.com/u/10519011?v=4"
+      },
+      "collection": "case-studies",
+      "publishedAt": "2025-03-03T18:04:20.006Z",
+      "slug": "hopeworks-foundation",
+      "status": "draft",
+      "title": "HopeWorks Foundation"
     }
   ]
 }
