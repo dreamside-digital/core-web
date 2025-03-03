@@ -1,6 +1,6 @@
 {
-  "commit": "0003ca2925b0c54304607ee7310771649047ceab",
-  "generated": "2025-03-03T22:29:36.585Z",
+  "commit": "844abbb05e74592575fb7b53a289873b08658f77",
+  "generated": "2025-03-03T22:29:43.626Z",
   "metadata": [
     {
       "__outstatic": {
@@ -121,22 +121,6 @@
     },
     {
       "__outstatic": {
-        "commit": "c5d0fda09718a277aa09f41118e1987cb4cfe01c",
-        "hash": "1204832881",
-        "path": "outstatic/content/services/fundraising.mdx"
-      },
-      "author": {
-        "name": "Shay",
-        "picture": "https://avatars.githubusercontent.com/u/10519011?v=4"
-      },
-      "collection": "services",
-      "publishedAt": "2025-03-03T18:03:33.399Z",
-      "slug": "fundraising",
-      "status": "draft",
-      "title": "Fundraising"
-    },
-    {
-      "__outstatic": {
         "commit": "19553029dcd6a1645e22d30fbd5ef14cec9ceeeb",
         "hash": "3036207999",
         "path": "outstatic/content/case-studies/hopeworks-foundation.mdx"
@@ -202,6 +186,22 @@
       "slug": "outreach",
       "status": "published",
       "title": "Outreach"
+    },
+    {
+      "__outstatic": {
+        "commit": "844abbb05e74592575fb7b53a289873b08658f77",
+        "hash": "3243141329",
+        "path": "outstatic/content/services/fundraising.mdx"
+      },
+      "author": {
+        "name": "Shay",
+        "picture": "https://avatars.githubusercontent.com/u/10519011?v=4"
+      },
+      "collection": "services",
+      "publishedAt": "2025-03-03T18:03:33.399Z",
+      "slug": "fundraising",
+      "status": "published",
+      "title": "Fundraising"
     }
   ]
 }
