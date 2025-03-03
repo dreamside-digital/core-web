@@ -1,6 +1,6 @@
 {
-  "commit": "4628e3765afe630ca3e417078a8a82e107e2acf1",
-  "generated": "2025-03-03T22:17:39.722Z",
+  "commit": "0003ca2925b0c54304607ee7310771649047ceab",
+  "generated": "2025-03-03T22:29:36.585Z",
   "metadata": [
     {
       "__outstatic": {
@@ -186,6 +186,22 @@
       "slug": "home",
       "status": "published",
       "title": "Home"
+    },
+    {
+      "__outstatic": {
+        "commit": "0003ca2925b0c54304607ee7310771649047ceab",
+        "hash": "1013029685",
+        "path": "outstatic/content/services/outreach.mdx"
+      },
+      "author": {
+        "name": "Shay",
+        "picture": "https://avatars.githubusercontent.com/u/10519011?v=4"
+      },
+      "collection": "services",
+      "publishedAt": "2025-03-03T21:58:53.098Z",
+      "slug": "outreach",
+      "status": "published",
+      "title": "Outreach"
     }
   ]
 }
