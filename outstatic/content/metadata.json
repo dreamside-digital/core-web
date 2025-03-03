@@ -1,6 +1,6 @@
 {
-  "commit": "3106487ee9b2f91347fb75f33a8eb3b60f8cceeb",
-  "generated": "2025-03-03T18:51:13.632Z",
+  "commit": "4a54e22c117a057c5a713d3cb86bfd62475c643b",
+  "generated": "2025-03-03T18:53:49.016Z",
   "metadata": [
     {
       "__outstatic": {
@@ -169,6 +169,22 @@
       "slug": "home",
       "status": "published",
       "title": "Home"
+    },
+    {
+      "__outstatic": {
+        "commit": "4a54e22c117a057c5a713d3cb86bfd62475c643b",
+        "hash": "1846616995",
+        "path": "outstatic/content/pages/contact.mdx"
+      },
+      "author": {
+        "name": "Shay",
+        "picture": "https://avatars.githubusercontent.com/u/10519011?v=4"
+      },
+      "collection": "pages",
+      "publishedAt": "2025-03-03T18:22:22.554Z",
+      "slug": "contact",
+      "status": "published",
+      "title": "Contact"
     }
   ]
 }
