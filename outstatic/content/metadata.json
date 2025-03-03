@@ -1,6 +1,6 @@
 {
-  "commit": "844abbb05e74592575fb7b53a289873b08658f77",
-  "generated": "2025-03-03T22:29:43.626Z",
+  "commit": "311dbbb61215c5f10d20615207b0d8b96fe8eeba",
+  "generated": "2025-03-03T22:30:04.053Z",
   "metadata": [
     {
       "__outstatic": {
@@ -202,6 +202,22 @@
       "slug": "fundraising",
       "status": "published",
       "title": "Fundraising"
+    },
+    {
+      "__outstatic": {
+        "commit": "311dbbb61215c5f10d20615207b0d8b96fe8eeba",
+        "hash": "4160195483",
+        "path": "outstatic/content/services/engagement.mdx"
+      },
+      "author": {
+        "name": "Shay",
+        "picture": "https://avatars.githubusercontent.com/u/10519011?v=4"
+      },
+      "collection": "services",
+      "publishedAt": "2025-03-03T21:59:48.096Z",
+      "slug": "engagement",
+      "status": "published",
+      "title": "Engagement"
     }
   ]
 }
