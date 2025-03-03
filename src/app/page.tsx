@@ -1,36 +1,37 @@
 import Layout from '../components/Layout'
 import { load } from 'outstatic/server'
-import ContentGrid from '../components/ContentGrid'
 import markdownToHtml from '../lib/markdownToHtml'
+import Link from 'next/link'
 
 export default async function Index() {
-  const { content, allPosts, allProjects } = await getData()
+  const { page, allPosts, allServices } = await getData()
+  const content = await markdownToHtml(page.content)
 
   return (
     <Layout>
-      <div className="max-w-6xl mx-auto px-5">
-        <section className="mt-16 mb-16 md:mb-12">
+      <section className="pt-16 pb-16">
+        <div className="container mx-auto px-4 mx-auto text-center">
           <div
-            className="prose lg:prose-2xl home-intro"
+            className="prose lg:prose-2xl prose-cream prose-h1:text-cream text-cream"
             dangerouslySetInnerHTML={{ __html: content }}
           />
-        </section>
-        {allPosts.length > 0 && (
-          <ContentGrid
-            title="Posts"
-            items={allPosts}
-            collection="posts"
-            priority
+          <div className="flex justify-center mt-8">
+            <Link href={page.buttonLink} className="btn btn-emerald">{page.buttonText}</Link>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" className="pt-16 pb-16 bg-cream">
+        <div className="container mx-auto px-4 mx-auto text-center">
+          <div
+            className="prose lg:prose-2xl prose-cream prose-h1:text-cream text-cream"
+            dangerouslySetInnerHTML={{ __html: content }}
           />
-        )}
-        {allProjects.length > 0 && (
-          <ContentGrid
-            title="Projects"
-            items={allProjects}
-            collection="projects"
-          />
-        )}
-      </div>
+          <div className="flex justify-center mt-8">
+            <Link href="/contact" className="btn btn-emerald">Book a call</Link>
+          </div>
+        </div>
+      </section>
     </Layout>
   )
 }
@@ -39,10 +40,11 @@ async function getData() {
   const db = await load()
 
   const page = await db
-    .find({ collection: 'pages', slug: 'home' }, ['content'])
+    .find({ collection: 'pages', slug: 'home' }, ['content', 'buttonText', 'buttonLink'])
     .first()
 
-  const content = await markdownToHtml(page.content)
+    console.log({page})
+
 
   const allPosts = await db
     .find({ collection: 'posts' }, [
@@ -56,14 +58,16 @@ async function getData() {
     .sort({ publishedAt: -1 })
     .toArray()
 
-  const allProjects = await db
-    .find({ collection: 'projects' }, ['title', 'slug', 'coverImage'])
+  const allServices = await db
+    .find({ collection: 'services' }, ['title', 'content'])
     .sort({ publishedAt: -1 })
     .toArray()
 
+    console.log({allServices})
+
   return {
-    content,
+    page,
     allPosts,
-    allProjects
+    allServices
   }
 }

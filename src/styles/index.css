@@ -5,3 +5,13 @@
 .home-intro p {
   @apply text-2xl font-semibold leading-9;
 }
+
+.btn {
+  @apply px-4 py-2 font-title text-2xl;
+}
+
+.btn-emerald {
+  @apply bg-emerald text-white;
+}
+
+

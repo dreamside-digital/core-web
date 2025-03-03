@@ -1,20 +1,44 @@
-const Footer = () => {
+import Link from 'next/link'
+import Image from 'next/image'
+
+export default function Footer() {
+  const currentYear = new Date().getFullYear()
+
   return (
-    <footer className="bg-neutral-50 border-t border-neutral-200">
-      <div className="max-w-6xl mx-auto px-5 p-10">
-        <h3 className="font-semibold text-2xl mb-10 lg:mb-0 lg:pr-4">
-          Sample website built with{' '}
-          <a className="underline" href="https://outstatic.com/">
-            Outstatic
-          </a>{' '}
-          and{' '}
-          <a className="underline" href="https://nextjs.org/">
-            Next.js
-          </a>
-        </h3>
+    <footer className="bg-black text-white py-12">
+      <div className="container mx-auto px-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          {/* Left Column */}
+          <div className="flex flex-col">
+            <div className="relative w-48 h-24">
+              <Image
+                src="/images/logo-horizontal-white.svg"
+                alt="Core Philanthropy Group"
+                fill
+                style={{ objectFit: 'contain' }}
+                priority
+              />
+            </div>
+            <p className="text-sm mt-4 text-gray-400">
+              © {currentYear} Core Philanthropy Group. All rights reserved.
+            </p>
+          </div>
+
+          {/* Right Column */}
+          <div className="flex flex-col space-y-4 items-end text-right">
+            <h3 className="font-title text-xl mb-2">Quick Links</h3>
+            <Link href="/about" className="hover:text-gray-400 transition-colors">
+              About Us
+            </Link>
+            <Link href="/contact" className="hover:text-gray-400 transition-colors">
+              Contact Us
+            </Link>
+            <Link href="/contact" className="hover:text-gray-400 transition-colors">
+              Book a Call
+            </Link>
+          </div>
+        </div>
       </div>
     </footer>
   )
 }
-
-export default Footer
