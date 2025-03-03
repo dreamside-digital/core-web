@@ -1,0 +1,13 @@
+{
+  "title": "pages",
+  "type": "object",
+  "properties": {
+    "buttonText": {
+      "description": "Button text",
+      "required": false,
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "Button text"
+    }
+  }
+}
