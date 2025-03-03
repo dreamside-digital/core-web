@@ -22,5 +22,11 @@
     "slug": "services",
     "path": "outstatic/content/services",
     "children": []
+  },
+  {
+    "title": "Case Studies",
+    "slug": "case-studies",
+    "path": "outstatic/content/case-studies",
+    "children": []
   }
 ]
