@@ -2,12 +2,12 @@
 title: "Home"
 status: "published"
 author:
-  name: "Andre Vitorio"
+  name: "Shay"
   picture: ""
 slug: "home"
 description: "This is my blog."
 coverImage: ""
-publishedAt: "2022-03-17T05:35:07.322Z"
+publishedAt: "2025-03-03T05:00:00.000Z"
 ---
 
 # We are fundraising professionals dedicated to diversifying your revenue streams.

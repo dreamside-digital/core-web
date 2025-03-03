@@ -1,6 +1,6 @@
 {
-  "commit": "7a68007becfd825028cb6fa3250211b51f2ace18",
-  "generated": "2025-03-03T18:50:31.821Z",
+  "commit": "ae2dfa9e63b57969d3f9740730a25a6c816aa7de",
+  "generated": "2025-03-03T18:50:46.108Z",
   "metadata": [
     {
       "__outstatic": {
@@ -153,18 +153,18 @@
     },
     {
       "__outstatic": {
-        "commit": "7a68007becfd825028cb6fa3250211b51f2ace18",
-        "hash": "1693002771",
+        "commit": "ae2dfa9e63b57969d3f9740730a25a6c816aa7de",
+        "hash": "3774391613",
         "path": "outstatic/content/pages/home.md"
       },
       "author": {
-        "name": "Andre Vitorio",
+        "name": "Shay",
         "picture": ""
       },
       "collection": "pages",
       "coverImage": "",
       "description": "This is my blog.",
-      "publishedAt": "2022-03-17T05:35:07.322Z",
+      "publishedAt": "2025-03-03T05:00:00.000Z",
       "slug": "home",
       "status": "published",
       "title": "Home"
