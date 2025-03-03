@@ -8,6 +8,7 @@ slug: "home"
 description: "This is my blog."
 coverImage: ""
 publishedAt: "2025-03-03T05:00:00.000Z"
+buttonText: "Book a call"
 ---
 
 # We are fundraising professionals dedicated to diversifying your revenue streams.

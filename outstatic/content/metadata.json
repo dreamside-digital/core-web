@@ -1,6 +1,6 @@
 {
-  "commit": "ae2dfa9e63b57969d3f9740730a25a6c816aa7de",
-  "generated": "2025-03-03T18:50:46.108Z",
+  "commit": "3106487ee9b2f91347fb75f33a8eb3b60f8cceeb",
+  "generated": "2025-03-03T18:51:13.632Z",
   "metadata": [
     {
       "__outstatic": {
@@ -153,14 +153,15 @@
     },
     {
       "__outstatic": {
-        "commit": "ae2dfa9e63b57969d3f9740730a25a6c816aa7de",
-        "hash": "3774391613",
+        "commit": "3106487ee9b2f91347fb75f33a8eb3b60f8cceeb",
+        "hash": "2431106976",
         "path": "outstatic/content/pages/home.md"
       },
       "author": {
         "name": "Shay",
         "picture": ""
       },
+      "buttonText": "Book a call",
       "collection": "pages",
       "coverImage": "",
       "description": "This is my blog.",
