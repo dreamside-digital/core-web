@@ -1,6 +1,6 @@
 {
-  "commit": "95134b939880d215bab518c2249dc075e1ac5fbc",
-  "generated": "2025-03-04T20:21:20.462Z",
+  "commit": "8f3a307997e0449b0aa4b7ec22c002b7ffb8e554",
+  "generated": "2025-03-04T20:45:16.848Z",
   "metadata": [
     {
       "__outstatic": {
@@ -217,21 +217,27 @@
     },
     {
       "__outstatic": {
-        "commit": "95134b939880d215bab518c2249dc075e1ac5fbc",
-        "hash": "4035153057",
+        "commit": "8f3a307997e0449b0aa4b7ec22c002b7ffb8e554",
+        "hash": "20429487",
         "path": "outstatic/content/general/general-configuration.mdx"
       },
       "author": {
         "name": "Shay",
         "picture": "https://avatars.githubusercontent.com/u/10519011?v=4"
       },
+      "calendarLink": "https://calendly.com/shay-dreamsidedigital",
       "collection": "general",
-      "footerLogo": "",
-      "primaryLogo": "",
+      "emailAddress": "hello@corephilanthropygroup.com",
+      "favicon": "",
+      "footerLogo": "/images/logo-horizontal-white-I5Mj.svg",
+      "phoneNumber": "1234567890",
+      "primaryLogo": "/images/logo-horizontal-primary-Y2NT.svg",
       "publishedAt": "2025-03-04T19:47:49.576Z",
       "slug": "general-configuration",
       "status": "published",
-      "title": "General configuration"
+      "title": "General configuration",
+      "websiteDescription": "Our mission is to help you better understand, communicate with, and engage your core audiences.",
+      "websiteTitle": "CORE Philanthropy Group"
     }
   ]
 }
