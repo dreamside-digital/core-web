@@ -20,7 +20,7 @@ export default function CaseStudies({ caseStudies }: { caseStudies: CaseStudy[] 
           '--swiper-navigation-color': '#3B9900',
           '--swiper-navigation-size': '34px',
           '--swiper-pagination-color': '#3B9900',
-        }}
+        } as any}
         className="shadow-lg"
         spaceBetween={40} 
         slidesPerView={1} 
