@@ -14,4 +14,7 @@
   @apply bg-emerald text-white;
 }
 
-
+:root {
+  --swiper-navigation-color: var(--forest);
+  --swiper-pagination-color: var(--forest);
+}
