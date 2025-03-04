@@ -12,12 +12,6 @@
     "children": []
   },
   {
-    "title": "Projects",
-    "slug": "projects",
-    "path": "outstatic/content/projects",
-    "children": []
-  },
-  {
     "title": "Services",
     "slug": "services",
     "path": "outstatic/content/services",
