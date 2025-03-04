@@ -2,7 +2,8 @@ import Layout from '../components/Layout'
 import { load } from 'outstatic/server'
 import markdownToHtml from '../lib/markdownToHtml'
 import Link from 'next/link'
-
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
 export default async function Index() {
   const { page, allCaseStudies, allServices } = await getData()
   const content = await markdownToHtml(page.content)
@@ -51,10 +52,14 @@ export default async function Index() {
           <h2 className="text-forest uppercase tracking-wider font-semibold text-center mb-8">Case Studies</h2>
 
           <div className="">
-            {allCaseStudies.map(async (caseStudy) => {
-              const content = await markdownToHtml(caseStudy.content)
-              return (
-                <div key={caseStudy.title} className="w-full flex flex-col md:flex-row gap-6 my-12">
+            <Swiper
+              spaceBetween={50}
+              slidesPerView={1}
+            >
+              {allCaseStudies.map(async (caseStudy) => {
+                const content = await markdownToHtml(caseStudy.content)
+                return (
+                <SwiperSlide key={caseStudy.title} className="w-full flex flex-col md:flex-row gap-6 my-12">
                   <div className="basis-1/2">
                     <h3 className="text-forest text-5xl font-title mb-4">{caseStudy.title}</h3>
                   </div>
@@ -64,9 +69,10 @@ export default async function Index() {
                       dangerouslySetInnerHTML={{ __html: content }}
                     />
                   </div>
-                </div>
+                </SwiperSlide>
               )
-            })}
+              })}
+            </Swiper>
           </div>
         </div>
       </section>
