@@ -1,18 +1,7 @@
 {
-  "commit": "7cca58fa5d719d4e31b2e4cd874e925dc53bc68a",
-  "generated": "2025-03-04T20:42:32.323Z",
+  "commit": "4c8d45c32e7127f29cd2021b731252a159d11984",
+  "generated": "2025-03-04T20:42:36.115Z",
   "media": [
-    {
-      "__outstatic": {
-        "commit": "",
-        "hash": "0",
-        "path": "public/images/industrial-pattern.png"
-      },
-      "alt": "",
-      "filename": "industrial-pattern.png",
-      "publishedAt": "2025-03-03T18:13:40.669Z",
-      "type": "image"
-    },
     {
       "__outstatic": {
         "commit": "",
