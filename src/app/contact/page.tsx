@@ -5,7 +5,7 @@ import ContactForm from '@/components/ContactForm'
 import Image from 'next/image'
 
 export default async function Contact() {
-  const { page } = await getData()
+  const { page, config } = await getData()
   const content = await markdownToHtml(page.content)
 
   return (
@@ -31,10 +31,10 @@ export default async function Contact() {
                 <span className="pt-1">Email</span>
               </h3>
               <a 
-                href="mailto:hello@corephilanthropygroup.com" 
+                href={`mailto:${config.emailAddress}`} 
                 className="text-black hover:text-emerald transition-colors"
               >
-                hello@corephilanthropygroup.com
+                  {config.emailAddress as string}
               </a>
             </div>
             <div className="bg-white p-12 shadow-lg">
@@ -43,17 +43,17 @@ export default async function Contact() {
                 <span className="pt-1">Phone</span>
               </h3>
               <a 
-                href="tel:+1234567890"
+                href={`tel:${config.phoneNumber}`}
                 className="text-black hover:text-emerald transition-colors"
               >
-                (123) 456-7890
+                {config.phoneNumber as string}
               </a>
             </div>
           </div>
         </div>
       </section>
     </Layout>
-  )
+  ) 
 }
 
 async function getData() {
@@ -63,7 +63,12 @@ async function getData() {
     .find({ collection: 'pages', slug: 'contact' }, ['title','content'])
     .first()
 
+  const config = await db
+    .find({ collection: 'general' }, ['emailAddress', 'phoneNumber'])
+    .first()
+
   return {
-    page
+    page,
+    config
   }
 } 

@@ -21,7 +21,7 @@ export default async function Index() {
   return (
     <Layout>
       <section className="pt-16 pb-16">
-        <div className="container max-w-screen-xl mx-auto px-4 mx-auto text-center">
+        <div className="container max-w-screen-xl mx-auto text-center">
           <div
             className="prose mx-auto lg:prose-2xl prose-cream prose-h1:text-cream prose-h1:font-semibold text-cream prose-h1:leading-tight prose-h1:text-6xl"
             dangerouslySetInnerHTML={{ __html: content }}
