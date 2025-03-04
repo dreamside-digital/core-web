@@ -1,38 +1,7 @@
 {
-  "commit": "6f6b8136a70738a0bf56223004458c1c533b00b1",
-  "generated": "2025-03-04T18:35:02.074Z",
+  "commit": "17c97af6ae1dfc258816c1e43d0825099160686c",
+  "generated": "2025-03-04T19:52:49.987Z",
   "metadata": [
-    {
-      "__outstatic": {
-        "commit": "bf4993b965319da4cb9de4a3810fb4af12bdebd6",
-        "hash": "2596208214",
-        "path": "/outstatic/content/posts/how-to-create-an-outstatic-blog.md"
-      },
-      "author": {
-        "name": "Andre Vitorio"
-      },
-      "collection": "posts",
-      "coverImage": "/images/jupiter-spaceship.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
-      "publishedAt": "2022-07-14T02:34:02.322Z",
-      "slug": "how-to-create-an-outstatic-blog",
-      "status": "published",
-      "tags": [
-        {
-          "label": "NextJs",
-          "value": "nextJs"
-        },
-        {
-          "label": "GitHub",
-          "value": "gitHub"
-        },
-        {
-          "label": "Outstatic",
-          "value": "outstatic"
-        }
-      ],
-      "title": "Learn how to create your blog with Outstatic"
-    },
     {
       "__outstatic": {
         "commit": "19553029dcd6a1645e22d30fbd5ef14cec9ceeeb",
@@ -214,6 +183,37 @@
       "slug": "contact",
       "status": "published",
       "title": "Let's Talk"
+    },
+    {
+      "__outstatic": {
+        "commit": "17c97af6ae1dfc258816c1e43d0825099160686c",
+        "hash": "471074772",
+        "path": "outstatic/content/posts/how-to-create-an-outstatic-blog.md"
+      },
+      "author": {
+        "name": "Andre Vitorio"
+      },
+      "collection": "posts",
+      "coverImage": "/images/jupiter-spaceship.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
+      "publishedAt": "2022-07-14T02:34:02.322Z",
+      "slug": "how-to-create-an-outstatic-blog",
+      "status": "published",
+      "tags": [
+        {
+          "label": "NextJs",
+          "value": "nextJs"
+        },
+        {
+          "label": "GitHub",
+          "value": "gitHub"
+        },
+        {
+          "label": "Outstatic",
+          "value": "outstatic"
+        }
+      ],
+      "title": "Expand and diversify your revenue streams + audience"
     }
   ]
 }
