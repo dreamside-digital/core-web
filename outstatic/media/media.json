@@ -1,6 +1,6 @@
 {
-  "commit": "cc99064d6575c8e356e64ff0333a6c7e6a81674f",
-  "generated": "2025-03-04T20:43:10.406Z",
+  "commit": "f2c089557512085599001bdb0705d24cff6fb04e",
+  "generated": "2025-03-04T21:17:20.238Z",
   "media": [
     {
       "__outstatic": {
@@ -33,6 +33,17 @@
       "alt": "",
       "filename": "logo-horizontal-white-I5Mj.svg",
       "publishedAt": "2025-03-04T20:43:04.053Z",
+      "type": "image"
+    },
+    {
+      "__outstatic": {
+        "commit": "f2c089557512085599001bdb0705d24cff6fb04e",
+        "hash": "1031670074",
+        "path": "public/images/og-image-AwMD.png"
+      },
+      "alt": "",
+      "filename": "og-image-AwMD.png",
+      "publishedAt": "2025-03-04T21:17:20.238Z",
       "type": "image"
     },
     {
