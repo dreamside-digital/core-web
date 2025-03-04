@@ -1,6 +1,6 @@
 {
-  "commit": "17c97af6ae1dfc258816c1e43d0825099160686c",
-  "generated": "2025-03-04T19:52:49.987Z",
+  "commit": "543af5e97586fb0921c55a5876d5ecfa590c5e3a",
+  "generated": "2025-03-04T19:53:17.366Z",
   "metadata": [
     {
       "__outstatic": {
@@ -186,9 +186,9 @@
     },
     {
       "__outstatic": {
-        "commit": "17c97af6ae1dfc258816c1e43d0825099160686c",
-        "hash": "471074772",
-        "path": "outstatic/content/posts/how-to-create-an-outstatic-blog.md"
+        "commit": "543af5e97586fb0921c55a5876d5ecfa590c5e3a",
+        "hash": "3951779726",
+        "path": "outstatic/content/posts/expand-and-diversify-your-revenue-streams.md"
       },
       "author": {
         "name": "Andre Vitorio"
@@ -197,7 +197,7 @@
       "coverImage": "/images/jupiter-spaceship.png",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
       "publishedAt": "2022-07-14T02:34:02.322Z",
-      "slug": "how-to-create-an-outstatic-blog",
+      "slug": "expand-and-diversify-your-revenue-streams",
       "status": "published",
       "tags": [
         {

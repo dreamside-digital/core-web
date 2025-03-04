@@ -13,7 +13,7 @@ tags:
     value: "outstatic"
 author:
   name: "Andre Vitorio"
-slug: "how-to-create-an-outstatic-blog"
+slug: "expand-and-diversify-your-revenue-streams"
 ---
 
 ### We Offer:
