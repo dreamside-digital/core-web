@@ -1,6 +1,6 @@
 {
-  "commit": "54c3b0738824336e4f809a3a212e3009e4445861",
-  "generated": "2025-03-04T18:34:53.960Z",
+  "commit": "6f6b8136a70738a0bf56223004458c1c533b00b1",
+  "generated": "2025-03-04T18:35:02.074Z",
   "metadata": [
     {
       "__outstatic": {
@@ -32,23 +32,6 @@
         }
       ],
       "title": "Learn how to create your blog with Outstatic"
-    },
-    {
-      "__outstatic": {
-        "commit": "d2f316fd04def3347c906f5227da5daf79971f61",
-        "hash": "4086614036",
-        "path": "/outstatic/content/posts/nothing-wrong.md"
-      },
-      "author": {
-        "name": "Andre Vitorio"
-      },
-      "collection": "posts",
-      "coverImage": "/images/industrial-pattern.png",
-      "description": "One more day, one more joy. I feel blessed.",
-      "publishedAt": "2022-09-14T17:55:40.452Z",
-      "slug": "nothing-wrong",
-      "status": "published",
-      "title": "Nothing is wrong. Everything is perfect"
     },
     {
       "__outstatic": {
