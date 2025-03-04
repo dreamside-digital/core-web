@@ -31,6 +31,12 @@
       "fieldType": "Image",
       "dataType": "image",
       "title": "Primary logo"
+    },
+    "websiteTitle": {
+      "required": false,
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "Website title"
     }
   }
 }
