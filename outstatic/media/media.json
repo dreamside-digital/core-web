@@ -1,6 +1,6 @@
 {
-  "commit": "f2c089557512085599001bdb0705d24cff6fb04e",
-  "generated": "2025-03-04T21:17:20.238Z",
+  "commit": "76b55560e791046fb47f30adcca6de2aaad704da",
+  "generated": "2025-03-04T21:27:15.453Z",
   "media": [
     {
       "__outstatic": {
@@ -44,17 +44,6 @@
       "alt": "",
       "filename": "og-image-AwMD.png",
       "publishedAt": "2025-03-04T21:17:20.238Z",
-      "type": "image"
-    },
-    {
-      "__outstatic": {
-        "commit": "",
-        "hash": "0",
-        "path": "public/images/og-image.png"
-      },
-      "alt": "",
-      "filename": "og-image.png",
-      "publishedAt": "2025-03-03T18:13:40.669Z",
       "type": "image"
     }
   ]
