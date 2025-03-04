@@ -1,6 +1,6 @@
 {
-  "commit": "a4a465803474f40d299788432c6928045e2041f8",
-  "generated": "2025-03-04T17:31:52.879Z",
+  "commit": "2c9dd844974bcea0f0ef2b6cac35f339472fe4b7",
+  "generated": "2025-03-04T17:41:54.576Z",
   "metadata": [
     {
       "__outstatic": {
@@ -284,6 +284,22 @@
       "slug": "mike-wozniak",
       "status": "published",
       "title": "Mike Wozniak"
+    },
+    {
+      "__outstatic": {
+        "commit": "2c9dd844974bcea0f0ef2b6cac35f339472fe4b7",
+        "hash": "2321032446",
+        "path": "outstatic/content/benefits/optimization.mdx"
+      },
+      "author": {
+        "name": "Shay",
+        "picture": "https://avatars.githubusercontent.com/u/10519011?v=4"
+      },
+      "collection": "benefits",
+      "publishedAt": "2025-03-04T17:11:23.542Z",
+      "slug": "optimization",
+      "status": "published",
+      "title": "Optimization"
     }
   ]
 }
