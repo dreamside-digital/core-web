@@ -1,6 +1,6 @@
 {
-  "commit": "bf6e482f3431e48fa17ed460e647930d5db32869",
-  "generated": "2025-03-04T17:42:27.940Z",
+  "commit": "609028fcda13b1b8a02ff767e9e9962c4e253c4f",
+  "generated": "2025-03-04T17:44:10.885Z",
   "metadata": [
     {
       "__outstatic": {
@@ -316,6 +316,22 @@
       "slug": "focus-on-major-gift-donors",
       "status": "published",
       "title": "Focus on Major Gift Donors"
+    },
+    {
+      "__outstatic": {
+        "commit": "609028fcda13b1b8a02ff767e9e9962c4e253c4f",
+        "hash": "3600473201",
+        "path": "outstatic/content/pages/how-we-work.mdx"
+      },
+      "author": {
+        "name": "Shay",
+        "picture": "https://avatars.githubusercontent.com/u/10519011?v=4"
+      },
+      "collection": "pages",
+      "publishedAt": "2025-03-04T17:12:41.294Z",
+      "slug": "how-we-work",
+      "status": "published",
+      "title": "How We Work"
     }
   ]
 }
