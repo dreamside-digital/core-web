@@ -5,12 +5,12 @@ description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ei
 coverImage: "/images/jupiter-spaceship.png"
 publishedAt: "2022-07-14T02:34:02.322Z"
 tags:
-  - label: "NextJs"
-    value: "nextJs"
-  - label: "GitHub"
-    value: "gitHub"
-  - label: "Outstatic"
-    value: "outstatic"
+  - label: "Revenue"
+    value: "revenue"
+  - label: "Audience"
+    value: "audience"
+  - label: "Fundraising"
+    value: "fundraising"
 author:
   name: "Andre Vitorio"
 slug: "expand-and-diversify-your-revenue-streams"

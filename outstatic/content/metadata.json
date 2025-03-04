@@ -1,6 +1,6 @@
 {
-  "commit": "543af5e97586fb0921c55a5876d5ecfa590c5e3a",
-  "generated": "2025-03-04T19:53:17.366Z",
+  "commit": "f383d7a965bf8deaeb428bf4b76faac1a6e9dcb6",
+  "generated": "2025-03-04T19:54:28.572Z",
   "metadata": [
     {
       "__outstatic": {
@@ -186,8 +186,8 @@
     },
     {
       "__outstatic": {
-        "commit": "543af5e97586fb0921c55a5876d5ecfa590c5e3a",
-        "hash": "3951779726",
+        "commit": "f383d7a965bf8deaeb428bf4b76faac1a6e9dcb6",
+        "hash": "3957353205",
         "path": "outstatic/content/posts/expand-and-diversify-your-revenue-streams.md"
       },
       "author": {
@@ -201,16 +201,16 @@
       "status": "published",
       "tags": [
         {
-          "label": "NextJs",
-          "value": "nextJs"
+          "label": "Revenue",
+          "value": "revenue"
         },
         {
-          "label": "GitHub",
-          "value": "gitHub"
+          "label": "Audience",
+          "value": "audience"
         },
         {
-          "label": "Outstatic",
-          "value": "outstatic"
+          "label": "Fundraising",
+          "value": "fundraising"
         }
       ],
       "title": "Expand and diversify your revenue streams + audience"

@@ -20,6 +20,18 @@
         {
           "value": "outstatic",
           "label": "Outstatic"
+        },
+        {
+          "value": "revenue",
+          "label": "Revenue"
+        },
+        {
+          "value": "audience",
+          "label": "Audience"
+        },
+        {
+          "value": "fundraising",
+          "label": "Fundraising"
         }
       ]
     }
