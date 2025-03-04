@@ -1,6 +1,6 @@
 {
-  "commit": "fbe5ca63d499a1bb6dda82e83f06391873310098",
-  "generated": "2025-03-04T21:32:28.760Z",
+  "commit": "5777247e6b4f3bb94de60ca62d317587d4e1da64",
+  "generated": "2025-03-04T22:59:17.687Z",
   "metadata": [
     {
       "__outstatic": {
@@ -120,23 +120,6 @@
     },
     {
       "__outstatic": {
-        "commit": "d3c09eaf68975131bfa38f5382bf27c7f733c86e",
-        "hash": "2023450676",
-        "path": "outstatic/content/people/liam-epps.mdx"
-      },
-      "author": {
-        "name": "Shay",
-        "picture": "https://avatars.githubusercontent.com/u/10519011?v=4"
-      },
-      "collection": "people",
-      "photo": "",
-      "publishedAt": "2025-03-04T16:50:44.339Z",
-      "slug": "liam-epps",
-      "status": "published",
-      "title": "Liam Epps"
-    },
-    {
-      "__outstatic": {
         "commit": "a4a465803474f40d299788432c6928045e2041f8",
         "hash": "4163168389",
         "path": "outstatic/content/people/mike-wozniak.mdx"
@@ -239,6 +222,23 @@
       "title": "General configuration",
       "websiteDescription": "Our mission is to help you better understand, communicate with, and engage your core audiences.",
       "websiteTitle": "CORE Philanthropy Group"
+    },
+    {
+      "__outstatic": {
+        "commit": "5777247e6b4f3bb94de60ca62d317587d4e1da64",
+        "hash": "3286239375",
+        "path": "outstatic/content/people/liam-epps.mdx"
+      },
+      "author": {
+        "name": "Shay",
+        "picture": "https://avatars.githubusercontent.com/u/10519011?v=4"
+      },
+      "collection": "people",
+      "photo": "",
+      "publishedAt": "2025-03-04T16:50:44.339Z",
+      "slug": "liam-epps",
+      "status": "published",
+      "title": "Liam"
     }
   ]
 }
