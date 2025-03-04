@@ -28,15 +28,15 @@ module.exports = {
       center: true,
       padding: '2rem',
     },
-  },
-  extend: {
-    typography: () => ({
-      cream: {
-        css: {
-          '--tw-prose-body': 'var(--color-cream)',
-          '--tw-prose-headings': 'var(--color-cream)',
+    extend: {
+      typography: () => ({
+        cream: {
+          css: {
+            '--tw-prose-body': 'var(--color-cream)',
+            '--tw-prose-headings': 'var(--color-cream)',
+          }
         }
-      }
-    })
-  }
+      })
+    }
+  },
 }

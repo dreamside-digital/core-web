@@ -26,7 +26,6 @@ export default function Footer() {
 
           {/* Right Column */}
           <div className="flex flex-col space-y-4 items-end text-right">
-            <h3 className="font-title text-xl mb-2">Quick Links</h3>
             <Link href="/about" className="hover:text-gray-400 transition-colors">
               About Us
             </Link>
