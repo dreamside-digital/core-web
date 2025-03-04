@@ -1,6 +1,12 @@
 {
-  "title": "General",
-  "slug": "general",
+  "title": "general",
   "type": "object",
-  "properties": {}
+  "properties": {
+    "emailAddress": {
+      "required": false,
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "Email address"
+    }
+  }
 }
