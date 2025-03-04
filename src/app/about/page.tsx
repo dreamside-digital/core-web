@@ -2,10 +2,29 @@ import Layout from '@/components/Layout'
 import { load } from 'outstatic/server'
 import markdownToHtml from '@/lib/markdownToHtml'
 import ContactForm from '@/components/ContactForm'
+import Image from 'next/image'
+
+// Add interface for person data
+interface Person {
+  title: string
+  content: string
+  image?: string
+  imageAlt?: string
+  imageCaption?: string
+}
 
 export default async function About() {
-  const { page } = await getData()
+  const { page, allPeople, howWeWork } = await getData()
   const content = await markdownToHtml(page.content)
+  const people = await Promise.all(allPeople.map(async (person) => ({
+    title: person.title,
+    content: await markdownToHtml(person.content),
+    image: person.image,
+    imageAlt: person.imageAlt,
+    imageCaption: person.imageCaption,
+  })))
+
+  const howWeWorkContent = await markdownToHtml(howWeWork.content)
 
   return (
     <Layout>
@@ -22,58 +41,35 @@ export default async function About() {
       </section>
 
       <section id="team" className="pt-16 pb-16 bg-snow text-forest">
-        <div className="container max-w-screen-xl mx-auto px-4">
+        <div className="container max-w-screen-xl mx-auto">
           <h2 className="text-forest uppercase tracking-wider font-semibold text-center mb-12">
             Meet the Team
           </h2>
-          <div className="grid md:grid-cols-2 gap-12">
-            <div className="text-center">
-              <div className="aspect-square w-48 mx-auto mb-6 bg-cream rounded-full" />
-              <h3 className="text-2xl font-title mb-2">Team Member Name</h3>
-              <p className="text-forest/75 mb-4">Position / Role</p>
-              <p className="text-forest">
-                Brief bio about the team member and their expertise in nonprofit consulting.
-              </p>
-            </div>
-            <div className="text-center">
-              <div className="aspect-square w-48 mx-auto mb-6 bg-cream rounded-full" />
-              <h3 className="text-2xl font-title mb-2">Team Member Name</h3>
-              <p className="text-forest/75 mb-4">Position / Role</p>
-              <p className="text-forest">
-                Brief bio about the team member and their expertise in nonprofit consulting.
-              </p>
-            </div>
+          <div className="grid gap-12">
+            {people.map((person) => (
+              <div key={person.title} className="flex gap-6 bg-white p-12 shadow-lg">
+                {person.image && (
+                  <div className="w-48 h-48 aspect-square">
+                    <Image src={person.image as string} alt={person.title} className="w-full h-full bg-snow object-cover" />
+                  </div>
+                )}
+                <div className="">
+                  <h3 className="text-4xl font-title mb-4">{person.title}</h3>
+                  <div dangerouslySetInnerHTML={{ __html: person.content }} />
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
 
       <section id="process" className="pt-16 pb-16 bg-cream text-forest">
-        <div className="container max-w-screen-xl mx-auto px-4">
+        <div className="container max-w-screen-md mx-auto">
           <h2 className="text-forest uppercase tracking-wider font-semibold text-center mb-12">
-            How We Work
+            {howWeWork.title}
           </h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="text-center">
-              <div className="w-16 h-16 rounded-full bg-emerald text-white flex items-center justify-center text-2xl font-title mx-auto mb-4">
-                1
-              </div>
-              <h3 className="text-xl font-title mb-4">Discovery</h3>
-              <p>We start by understanding your organization's unique needs and challenges.</p>
-            </div>
-            <div className="text-center">
-              <div className="w-16 h-16 rounded-full bg-emerald text-white flex items-center justify-center text-2xl font-title mx-auto mb-4">
-                2
-              </div>
-              <h3 className="text-xl font-title mb-4">Strategy</h3>
-              <p>Together, we develop a customized plan to achieve your goals.</p>
-            </div>
-            <div className="text-center">
-              <div className="w-16 h-16 rounded-full bg-emerald text-white flex items-center justify-center text-2xl font-title mx-auto mb-4">
-                3
-              </div>
-              <h3 className="text-xl font-title mb-4">Implementation</h3>
-              <p>We guide you through executing the strategy and measuring results.</p>
-            </div>
+          <div className="">
+            <div dangerouslySetInnerHTML={{ __html: howWeWorkContent }} />
           </div>
         </div>
       </section>
@@ -104,8 +100,19 @@ async function getData() {
   const page = await db
     .find({ collection: 'pages', slug: 'about' }, ['content'])
     .first()
+  
+  const allPeople = await db
+    .find<Person>({ collection: 'people' }, ['title', 'content', 'image', 'imageAlt', 'imageCaption'])
+    .sort("title")
+    .toArray()
+
+  const howWeWork = await db
+    .find({ collection: 'pages', slug: 'how-we-work' }, ['title', 'content'])
+    .first()
 
   return {
-    page
+    page,
+    allPeople,
+    howWeWork
   }
 } 
