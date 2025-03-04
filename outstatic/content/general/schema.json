@@ -20,11 +20,11 @@
       "dataType": "string",
       "title": "Calendar link"
     },
-    "primaryLogo": {
+    "footerLogo": {
       "required": false,
       "fieldType": "Image",
       "dataType": "image",
-      "title": "Primary logo"
+      "title": "Footer logo"
     }
   }
 }
