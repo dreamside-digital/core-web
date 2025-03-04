@@ -13,6 +13,12 @@
       "fieldType": "String",
       "dataType": "string",
       "title": "Phone number"
+    },
+    "calendarLink": {
+      "required": false,
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "Calendar link"
     }
   }
 }
