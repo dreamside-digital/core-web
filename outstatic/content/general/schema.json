@@ -43,6 +43,12 @@
       "fieldType": "String",
       "dataType": "string",
       "title": "Website description"
+    },
+    "defaultShareImage": {
+      "required": false,
+      "fieldType": "Image",
+      "dataType": "image",
+      "title": "Default share image"
     }
   }
 }
