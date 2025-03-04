@@ -49,6 +49,12 @@
       "fieldType": "Image",
       "dataType": "image",
       "title": "Default share image"
+    },
+    "shareImage": {
+      "required": false,
+      "fieldType": "Image",
+      "dataType": "image",
+      "title": "Share image"
     }
   }
 }
