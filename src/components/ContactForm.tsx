@@ -6,7 +6,11 @@ import { useForm } from '@formspree/react';
 export default function ContactForm() {
   const [state, handleSubmit, reset] = useForm('xjkgnqab');
   if (state.succeeded) {
-    return <div>Thank you for signing up!</div>;
+    return(
+      <div className="text-center text-lg font-semibold text-forest bg-cream p-4 shadow-lg">
+        <p>Thanks for reaching out! We will be in touch soon.</p>
+      </div>
+    )
   }
 
   return (
