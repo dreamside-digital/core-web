@@ -7,6 +7,12 @@
       "fieldType": "Image",
       "dataType": "image",
       "title": "Photo"
+    },
+    "role": {
+      "required": false,
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "Role"
     }
   }
 }
