@@ -1,6 +1,6 @@
 {
-  "commit": "311dbbb61215c5f10d20615207b0d8b96fe8eeba",
-  "generated": "2025-03-03T22:30:04.053Z",
+  "commit": "7bc41e1be16caf0fdae762306cd1fb2ed31e82d3",
+  "generated": "2025-03-04T15:43:43.535Z",
   "metadata": [
     {
       "__outstatic": {
@@ -218,6 +218,22 @@
       "slug": "engagement",
       "status": "published",
       "title": "Engagement"
+    },
+    {
+      "__outstatic": {
+        "commit": "7bc41e1be16caf0fdae762306cd1fb2ed31e82d3",
+        "hash": "2509557322",
+        "path": "outstatic/content/case-studies/green-horizons.mdx"
+      },
+      "author": {
+        "name": "Shay",
+        "picture": "https://avatars.githubusercontent.com/u/10519011?v=4"
+      },
+      "collection": "case-studies",
+      "publishedAt": "2025-03-04T15:11:37.217Z",
+      "slug": "green-horizons",
+      "status": "published",
+      "title": "Green Horizons"
     }
   ]
 }
