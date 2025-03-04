@@ -1,6 +1,6 @@
 {
-  "commit": "f383d7a965bf8deaeb428bf4b76faac1a6e9dcb6",
-  "generated": "2025-03-04T19:54:28.572Z",
+  "commit": "9cfc249edb00f1b672bd0d63ce4de10b017fc4b1",
+  "generated": "2025-03-04T20:13:41.257Z",
   "metadata": [
     {
       "__outstatic": {
@@ -186,18 +186,18 @@
     },
     {
       "__outstatic": {
-        "commit": "f383d7a965bf8deaeb428bf4b76faac1a6e9dcb6",
-        "hash": "3957353205",
-        "path": "outstatic/content/posts/expand-and-diversify-your-revenue-streams.md"
+        "commit": "9cfc249edb00f1b672bd0d63ce4de10b017fc4b1",
+        "hash": "3991129838",
+        "path": "outstatic/content/posts/expand-and-diversify.md"
       },
       "author": {
-        "name": "Andre Vitorio"
+        "name": "Shay"
       },
       "collection": "posts",
       "coverImage": "/images/jupiter-spaceship.png",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
-      "publishedAt": "2022-07-14T02:34:02.322Z",
-      "slug": "expand-and-diversify-your-revenue-streams",
+      "publishedAt": "2025-03-04T05:00:00.000Z",
+      "slug": "expand-and-diversify",
       "status": "published",
       "tags": [
         {

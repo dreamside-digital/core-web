@@ -3,7 +3,7 @@ title: "Expand and diversify your revenue streams + audience"
 status: "published"
 description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore."
 coverImage: "/images/jupiter-spaceship.png"
-publishedAt: "2022-07-14T02:34:02.322Z"
+publishedAt: "2025-03-04T05:00:00.000Z"
 tags:
   - label: "Revenue"
     value: "revenue"
@@ -12,8 +12,8 @@ tags:
   - label: "Fundraising"
     value: "fundraising"
 author:
-  name: "Andre Vitorio"
-slug: "expand-and-diversify-your-revenue-streams"
+  name: "Shay"
+slug: "expand-and-diversify"
 ---
 
 ### We Offer:
