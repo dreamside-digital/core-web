@@ -37,6 +37,12 @@
       "fieldType": "String",
       "dataType": "string",
       "title": "Website title"
+    },
+    "websiteDescription": {
+      "required": false,
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "Website description"
     }
   }
 }
