@@ -49,6 +49,12 @@
       "fieldType": "Image",
       "dataType": "image",
       "title": "Default share image"
+    },
+    "favicon": {
+      "required": false,
+      "fieldType": "Image",
+      "dataType": "image",
+      "title": "Favicon"
     }
   }
 }
