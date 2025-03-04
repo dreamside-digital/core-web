@@ -28,5 +28,11 @@
     "slug": "case-studies",
     "path": "outstatic/content/case-studies",
     "children": []
+  },
+  {
+    "title": "Team",
+    "slug": "team",
+    "path": "outstatic/content/team",
+    "children": []
   }
 ]
