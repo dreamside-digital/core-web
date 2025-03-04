@@ -1,6 +1,6 @@
 {
-  "commit": "7dcc32fdfae2454dd48526e0658e38e0b3d4f6e5",
-  "generated": "2025-03-04T17:44:32.491Z",
+  "commit": "fa6eee7e93f8df8626b664f06e6a188fa3368fb1",
+  "generated": "2025-03-04T18:05:08.163Z",
   "metadata": [
     {
       "__outstatic": {
@@ -134,22 +134,6 @@
       "slug": "hopeworks-foundation",
       "status": "draft",
       "title": "HopeWorks Foundation"
-    },
-    {
-      "__outstatic": {
-        "commit": "4b3b3fe06041a00daf2c97c0ad2ab132d04cc1c3",
-        "hash": "2038088824",
-        "path": "outstatic/content/pages/contact.mdx"
-      },
-      "author": {
-        "name": "Shay",
-        "picture": "https://avatars.githubusercontent.com/u/10519011?v=4"
-      },
-      "collection": "pages",
-      "publishedAt": "2025-03-03T18:22:22.554Z",
-      "slug": "contact",
-      "status": "published",
-      "title": "Contact"
     },
     {
       "__outstatic": {
@@ -300,6 +284,22 @@
       "slug": "how-we-work",
       "status": "published",
       "title": "How We Work"
+    },
+    {
+      "__outstatic": {
+        "commit": "fa6eee7e93f8df8626b664f06e6a188fa3368fb1",
+        "hash": "1509201887",
+        "path": "outstatic/content/pages/contact.mdx"
+      },
+      "author": {
+        "name": "Shay",
+        "picture": "https://avatars.githubusercontent.com/u/10519011?v=4"
+      },
+      "collection": "pages",
+      "publishedAt": "2025-03-03T18:22:22.554Z",
+      "slug": "contact",
+      "status": "published",
+      "title": "Let's Talk"
     }
   ]
 }
