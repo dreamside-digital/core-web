@@ -19,6 +19,12 @@
       "fieldType": "String",
       "dataType": "string",
       "title": "Calendar link"
+    },
+    "primaryLogo": {
+      "required": false,
+      "fieldType": "Image",
+      "dataType": "image",
+      "title": "Primary logo"
     }
   }
 }
