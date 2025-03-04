@@ -28,5 +28,11 @@
     "slug": "people",
     "path": "outstatic/content/people",
     "children": []
+  },
+  {
+    "title": "General",
+    "slug": "general",
+    "path": "outstatic/content/general",
+    "children": []
   }
 ]
