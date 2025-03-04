@@ -74,7 +74,7 @@ export default async function Index() {
             <h3 className="text-cream text-5xl text-center font-title uppercase mb-8">
               Ready to get started?
             </h3>
-            <p className="text-cream text-center mb-12">
+            <p className="text-cream text-justify mb-12">
               {`Building strong donor relationships takes time and care. Whether you're looking to deepen engagement, grow monthly giving, or connect with major donors, we're here to help. Let's work together to create a thoughtful strategy that fits your organization's needs. Reach out - we'd love to chat!`}
             </p>
             <ContactForm />

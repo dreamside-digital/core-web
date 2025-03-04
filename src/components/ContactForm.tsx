@@ -10,7 +10,7 @@ export default function ContactForm() {
   }
 
   return (
-    <form onSubmit={handleSubmit} className="space-y-6 max-w-2xl mx-auto">
+    <form onSubmit={handleSubmit} className="space-y-6">
       <div className="md:grid grid-cols-2 gap-6 max-md:space-y-6">
         <div>
           <label htmlFor="name" className="block text-xs uppercase tracking-wider font-semibold mb-2">
