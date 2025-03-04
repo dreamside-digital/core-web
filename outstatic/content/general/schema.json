@@ -31,12 +31,6 @@
       "fieldType": "Image",
       "dataType": "image",
       "title": "Primary logo"
-    },
-    "contactFormEmail": {
-      "required": false,
-      "fieldType": "String",
-      "dataType": "string",
-      "title": "Contact form email"
     }
   }
 }
