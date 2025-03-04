@@ -1,6 +1,6 @@
 {
-  "commit": "7bc41e1be16caf0fdae762306cd1fb2ed31e82d3",
-  "generated": "2025-03-04T15:43:43.535Z",
+  "commit": "753ad7cbfcd48eb6e51ad56b971edd92ba8a111e",
+  "generated": "2025-03-04T17:05:31.941Z",
   "metadata": [
     {
       "__outstatic": {
@@ -234,6 +234,22 @@
       "slug": "green-horizons",
       "status": "published",
       "title": "Green Horizons"
+    },
+    {
+      "__outstatic": {
+        "commit": "753ad7cbfcd48eb6e51ad56b971edd92ba8a111e",
+        "hash": "2500710420",
+        "path": "outstatic/content/pages/about.mdx"
+      },
+      "author": {
+        "name": "Shay",
+        "picture": "https://avatars.githubusercontent.com/u/10519011?v=4"
+      },
+      "collection": "pages",
+      "publishedAt": "2025-03-04T16:34:32.613Z",
+      "slug": "about",
+      "status": "published",
+      "title": "About"
     }
   ]
 }
