@@ -7,6 +7,12 @@
       "fieldType": "String",
       "dataType": "string",
       "title": "Email address"
+    },
+    "phoneNumber": {
+      "required": false,
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "Phone number"
     }
   }
 }
