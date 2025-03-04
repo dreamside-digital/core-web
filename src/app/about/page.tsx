@@ -55,7 +55,7 @@ export default async function About() {
                 )}
                 <div className="">
                   <h3 className="text-4xl font-title mb-4">{person.title}</h3>
-                  <div dangerouslySetInnerHTML={{ __html: person.content }} />
+                  <div className="prose max-w-none" dangerouslySetInnerHTML={{ __html: person.content }} />
                 </div>
               </div>
             ))}
@@ -69,7 +69,15 @@ export default async function About() {
             {howWeWork.title}
           </h2>
           <div className="">
-            <div dangerouslySetInnerHTML={{ __html: howWeWorkContent }} />
+            <div 
+              className="prose max-w-none [&>ul]:list-none [&>ul]:pl-0 [&>ul>li]:relative [&>ul>li]:pl-6 [&>ul>li]:mb-4
+                [&>ul>li]:before:content-[''] [&>ul>li]:before:absolute [&>ul>li]:before:left-0 [&>ul>li]:before:top-[0.6em]
+                [&>ul>li]:before:w-0 [&>ul>li]:before:h-0 
+                [&>ul>li]:before:border-t-[6px] [&>ul>li]:before:border-t-[transparent]
+                [&>ul>li]:before:border-l-[8px] [&>ul>li]:before:border-l-emerald
+                [&>ul>li]:before:border-b-[6px] [&>ul>li]:before:border-b-[transparent]"
+              dangerouslySetInnerHTML={{ __html: howWeWorkContent }} 
+            />
           </div>
         </div>
       </section>
