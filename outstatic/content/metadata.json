@@ -1,6 +1,6 @@
 {
-  "commit": "9cfc249edb00f1b672bd0d63ce4de10b017fc4b1",
-  "generated": "2025-03-04T20:13:41.257Z",
+  "commit": "95134b939880d215bab518c2249dc075e1ac5fbc",
+  "generated": "2025-03-04T20:21:20.462Z",
   "metadata": [
     {
       "__outstatic": {
@@ -214,6 +214,24 @@
         }
       ],
       "title": "Expand and diversify your revenue streams + audience"
+    },
+    {
+      "__outstatic": {
+        "commit": "95134b939880d215bab518c2249dc075e1ac5fbc",
+        "hash": "4035153057",
+        "path": "outstatic/content/general/general-configuration.mdx"
+      },
+      "author": {
+        "name": "Shay",
+        "picture": "https://avatars.githubusercontent.com/u/10519011?v=4"
+      },
+      "collection": "general",
+      "footerLogo": "",
+      "primaryLogo": "",
+      "publishedAt": "2025-03-04T19:47:49.576Z",
+      "slug": "general-configuration",
+      "status": "published",
+      "title": "General configuration"
     }
   ]
 }
