@@ -1,6 +1,6 @@
 {
-  "commit": "c71423a1aa3dfd70858bde31e8fb9f2aa20a19dc",
-  "generated": "2025-03-04T17:20:34.799Z",
+  "commit": "59fa6f528501880a82fe6624be6eea87cba1e129",
+  "generated": "2025-03-04T17:21:28.369Z",
   "metadata": [
     {
       "__outstatic": {
@@ -250,6 +250,23 @@
       "slug": "about",
       "status": "published",
       "title": "About"
+    },
+    {
+      "__outstatic": {
+        "commit": "59fa6f528501880a82fe6624be6eea87cba1e129",
+        "hash": "2180854325",
+        "path": "outstatic/content/people/liam-epps.mdx"
+      },
+      "author": {
+        "name": "Shay",
+        "picture": "https://avatars.githubusercontent.com/u/10519011?v=4"
+      },
+      "collection": "people",
+      "photo": "",
+      "publishedAt": "2025-03-04T16:50:44.339Z",
+      "slug": "liam-epps",
+      "status": "published",
+      "title": "Liam Epps"
     }
   ]
 }
