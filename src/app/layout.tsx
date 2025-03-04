@@ -20,9 +20,9 @@ const bebas_neue = Bebas_Neue({
 
 export async function generateMetadata() {
   const db = await load()
-  const config = await db.find({ collection: 'general' }, ['defaultShareImage', 'websiteTitle', 'websiteDescription'])
+  const config = await db.find({ collection: 'general' }, ['shareImage', 'websiteTitle', 'websiteDescription'])
   .first()
-console.log(config)
+
   return {
     metadataBase: new URL('https://corephilanthropygroup.com'),
     title: {
@@ -37,7 +37,7 @@ console.log(config)
       siteName: config.websiteTitle,
       images: [
         {
-          url: absoluteUrl(config.defaultShareImage as string),
+          url: absoluteUrl(config.shareImage as string),
           width: 1800,
           height: 1600
         }
