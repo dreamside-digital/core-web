@@ -2,8 +2,6 @@ import Layout from '../components/Layout'
 import { load } from 'outstatic/server'
 import markdownToHtml from '../lib/markdownToHtml'
 import Link from 'next/link'
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
 import CaseStudies from '@/components/CaseStudies'
 import ContactForm from '@/components/ContactForm'
 
@@ -28,8 +26,10 @@ export default async function Index() {
             dangerouslySetInnerHTML={{ __html: content }}
           />
           <div className="flex justify-center mt-8">
-            <Link href={page.buttonLink} className="btn btn-emerald">{page.buttonText}</Link>
-          </div>
+            <Link href={page.buttonLink as string} className="btn btn-emerald">
+              {page.buttonText as string}
+            </Link>
+            </div>
         </div>
       </section>
 
