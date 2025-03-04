@@ -1,6 +1,6 @@
 {
-  "commit": "4c8d45c32e7127f29cd2021b731252a159d11984",
-  "generated": "2025-03-04T20:42:36.115Z",
+  "commit": "07169446cfa9257d3c7bf52b0459f5fec0441813",
+  "generated": "2025-03-04T20:42:42.576Z",
   "media": [
     {
       "__outstatic": {
@@ -21,17 +21,6 @@
       },
       "alt": "",
       "filename": "og-image.png",
-      "publishedAt": "2025-03-03T18:13:40.669Z",
-      "type": "image"
-    },
-    {
-      "__outstatic": {
-        "commit": "",
-        "hash": "0",
-        "path": "public/images/skyline.png"
-      },
-      "alt": "",
-      "filename": "skyline.png",
       "publishedAt": "2025-03-03T18:13:40.669Z",
       "type": "image"
     }
