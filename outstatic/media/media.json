@@ -1,18 +1,7 @@
 {
-  "commit": "61120b10b68504c06fcefea407a97d1be4985af0",
-  "generated": "2025-03-04T20:42:26.662Z",
+  "commit": "7cca58fa5d719d4e31b2e4cd874e925dc53bc68a",
+  "generated": "2025-03-04T20:42:32.323Z",
   "media": [
-    {
-      "__outstatic": {
-        "commit": "",
-        "hash": "0",
-        "path": "public/images/flycream-travel.png"
-      },
-      "alt": "",
-      "filename": "flycream-travel.png",
-      "publishedAt": "2025-03-03T18:13:40.669Z",
-      "type": "image"
-    },
     {
       "__outstatic": {
         "commit": "",
