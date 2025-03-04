@@ -34,5 +34,11 @@
     "slug": "people",
     "path": "outstatic/content/people",
     "children": []
+  },
+  {
+    "title": "Benefits",
+    "slug": "benefits",
+    "path": "outstatic/content/benefits",
+    "children": []
   }
 ]
