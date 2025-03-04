@@ -1,6 +1,6 @@
 {
-  "commit": "8f3a307997e0449b0aa4b7ec22c002b7ffb8e554",
-  "generated": "2025-03-04T20:45:16.848Z",
+  "commit": "187397e3967bc9e35323502eb9eb594cc07bd1af",
+  "generated": "2025-03-04T21:02:23.965Z",
   "metadata": [
     {
       "__outstatic": {
@@ -217,8 +217,8 @@
     },
     {
       "__outstatic": {
-        "commit": "8f3a307997e0449b0aa4b7ec22c002b7ffb8e554",
-        "hash": "20429487",
+        "commit": "187397e3967bc9e35323502eb9eb594cc07bd1af",
+        "hash": "2514900721",
         "path": "outstatic/content/general/general-configuration.mdx"
       },
       "author": {
@@ -230,7 +230,7 @@
       "emailAddress": "hello@corephilanthropygroup.com",
       "favicon": "",
       "footerLogo": "/images/logo-horizontal-white-I5Mj.svg",
-      "phoneNumber": "1234567890",
+      "phoneNumber": "519-123-4567",
       "primaryLogo": "/images/logo-horizontal-primary-Y2NT.svg",
       "publishedAt": "2025-03-04T19:47:49.576Z",
       "slug": "general-configuration",
