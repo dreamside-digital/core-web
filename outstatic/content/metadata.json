@@ -1,6 +1,6 @@
 {
-  "commit": "609028fcda13b1b8a02ff767e9e9962c4e253c4f",
-  "generated": "2025-03-04T17:44:10.885Z",
+  "commit": "7dcc32fdfae2454dd48526e0658e38e0b3d4f6e5",
+  "generated": "2025-03-04T17:44:32.491Z",
   "metadata": [
     {
       "__outstatic": {
@@ -284,38 +284,6 @@
       "slug": "mike-wozniak",
       "status": "published",
       "title": "Mike Wozniak"
-    },
-    {
-      "__outstatic": {
-        "commit": "2c9dd844974bcea0f0ef2b6cac35f339472fe4b7",
-        "hash": "2321032446",
-        "path": "outstatic/content/benefits/optimization.mdx"
-      },
-      "author": {
-        "name": "Shay",
-        "picture": "https://avatars.githubusercontent.com/u/10519011?v=4"
-      },
-      "collection": "benefits",
-      "publishedAt": "2025-03-04T17:11:23.542Z",
-      "slug": "optimization",
-      "status": "published",
-      "title": "Optimization"
-    },
-    {
-      "__outstatic": {
-        "commit": "bf6e482f3431e48fa17ed460e647930d5db32869",
-        "hash": "1641903552",
-        "path": "outstatic/content/benefits/focus-on-major-gift-donors.mdx"
-      },
-      "author": {
-        "name": "Shay",
-        "picture": "https://avatars.githubusercontent.com/u/10519011?v=4"
-      },
-      "collection": "benefits",
-      "publishedAt": "2025-03-04T17:12:06.311Z",
-      "slug": "focus-on-major-gift-donors",
-      "status": "published",
-      "title": "Focus on Major Gift Donors"
     },
     {
       "__outstatic": {
