@@ -1,6 +1,6 @@
 {
-  "commit": "535bc7d98ebc287284db0a10227c9a0e523850c6",
-  "generated": "2025-03-04T18:34:25.371Z",
+  "commit": "54c3b0738824336e4f809a3a212e3009e4445861",
+  "generated": "2025-03-04T18:34:53.960Z",
   "metadata": [
     {
       "__outstatic": {
@@ -32,23 +32,6 @@
         }
       ],
       "title": "Learn how to create your blog with Outstatic"
-    },
-    {
-      "__outstatic": {
-        "commit": "998b7f74af83e46bbdb4ab5302c8e4c39963278f",
-        "hash": "3707858083",
-        "path": "/outstatic/content/posts/the-wrong-decision.md"
-      },
-      "author": {
-        "name": "Naval Ravikant"
-      },
-      "collection": "posts",
-      "coverImage": "/images/skyline.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
-      "publishedAt": "2022-03-26T05:35:07.322Z",
-      "slug": "the-wrong-decision",
-      "status": "published",
-      "title": "If you want to make the wrong decision, ask everyone"
     },
     {
       "__outstatic": {
