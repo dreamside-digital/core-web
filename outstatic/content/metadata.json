@@ -1,6 +1,6 @@
 {
-  "commit": "2c9dd844974bcea0f0ef2b6cac35f339472fe4b7",
-  "generated": "2025-03-04T17:41:54.576Z",
+  "commit": "bf6e482f3431e48fa17ed460e647930d5db32869",
+  "generated": "2025-03-04T17:42:27.940Z",
   "metadata": [
     {
       "__outstatic": {
@@ -300,6 +300,22 @@
       "slug": "optimization",
       "status": "published",
       "title": "Optimization"
+    },
+    {
+      "__outstatic": {
+        "commit": "bf6e482f3431e48fa17ed460e647930d5db32869",
+        "hash": "1641903552",
+        "path": "outstatic/content/benefits/focus-on-major-gift-donors.mdx"
+      },
+      "author": {
+        "name": "Shay",
+        "picture": "https://avatars.githubusercontent.com/u/10519011?v=4"
+      },
+      "collection": "benefits",
+      "publishedAt": "2025-03-04T17:12:06.311Z",
+      "slug": "focus-on-major-gift-donors",
+      "status": "published",
+      "title": "Focus on Major Gift Donors"
     }
   ]
 }
