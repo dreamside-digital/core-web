@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import { Metadata } from 'next'
 import { OstDocument } from 'outstatic'
-import Header from '@/components/Header'
 import Layout from '@/components/Layout'
 import markdownToHtml from '@/lib/markdownToHtml'
 import { getDocumentSlugs, load } from 'outstatic/server'
@@ -13,14 +12,11 @@ type Post = {
   tags: { value: string; label: string }[]
 } & OstDocument
 
-interface Params {
-  params: {
-    slug: string
-  }
-}
+type Params = Promise<{ slug: string }>
 
-export async function generateMetadata(params: Params): Promise<Metadata> {
-  const post = await getData(params)
+export async function generateMetadata({ params }: { params: Params }) {
+  const { slug } = await params
+  const post = await getData(slug)
 
   if (!post) {
     return {}
@@ -53,11 +49,11 @@ export async function generateMetadata(params: Params): Promise<Metadata> {
 }
 
 export default async function Post(params: Params) {
-  const post = await getData(params)
+  const { slug } = await params
+  const post = await getData(slug)
   return (
     <Layout>
       <div className="max-w-6xl mx-auto px-5">
-        <Header />
         <article className="mb-32">
           <div className="relative mb-2 md:mb-4 sm:mx-0 w-full h-52 md:h-96">
             <Image
@@ -98,11 +94,11 @@ export default async function Post(params: Params) {
   )
 }
 
-async function getData({ params }: Params) {
+async function getData(slug: string) {
   const db = await load()
 
   const post = await db
-    .find<Post>({ collection: 'posts', slug: params.slug }, [
+    .find<Post>({ collection: 'posts', slug: slug }, [
       'title',
       'publishedAt',
       'description',

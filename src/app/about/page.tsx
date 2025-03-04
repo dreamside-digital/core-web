@@ -14,7 +14,7 @@ interface Person {
 }
 
 export default async function About() {
-  const { page, allPeople, howWeWork } = await getData()
+  const { page, allPeople, howWeWork, contact } = await getData()
   const content = await markdownToHtml(page.content)
   const people = await Promise.all(allPeople.map(async (person) => ({
     title: person.title,
@@ -25,7 +25,7 @@ export default async function About() {
   })))
 
   const howWeWorkContent = await markdownToHtml(howWeWork.content)
-
+  const contactContent = await markdownToHtml(contact.content)
   return (
     <Layout>
       <section className="pt-16 pb-16">
@@ -34,7 +34,7 @@ export default async function About() {
             Our Vision
           </h2>
           <div
-            className="prose mx-auto prose-cream prose-h1:text-cream prose-h1:font-title prose-h1:text-4xl prose-h1:mb-8 prose-h1:text-center text-cream"
+            className="prose mx-auto prose-cream prose-h1:text-cream prose-h1:font-title prose-h1:text-5xl prose-h1:mb-8 prose-h1:text-center text-cream"
             dangerouslySetInnerHTML={{ __html: content }}
           />
         </div>
@@ -85,15 +85,10 @@ export default async function About() {
       <section id="contact" className="pt-16 pb-16 bg-forest text-cream">
         <div className="container max-w-screen-md mx-auto mx-auto">
           <h2 className="text-cream uppercase tracking-wider font-semibold text-center mb-12">
-            Let's Talk
+            {contact.title}
           </h2>
           <div className="mt-8">
-            <h3 className="text-cream text-5xl text-center font-title uppercase mb-8">
-              Ready to get started?
-            </h3>
-            <p className="text-cream text-justify mb-12">
-              {`Building strong donor relationships takes time and care. Whether you're looking to deepen engagement, grow monthly giving, or connect with major donors, we're here to help. Let's work together to create a thoughtful strategy that fits your organization's needs. Reach out - we'd love to chat!`}
-            </p>
+            <div className="prose max-w-none mx-auto mb-8 prose-cream prose-h1:text-cream prose-h1:font-title prose-h1:text-5xl prose-h1:mb-8 prose-h1:text-center text-cream" dangerouslySetInnerHTML={{ __html: contactContent }} />
             <ContactForm />
           </div>
         </div>
@@ -118,9 +113,14 @@ async function getData() {
     .find({ collection: 'pages', slug: 'how-we-work' }, ['title', 'content'])
     .first()
 
+  const contact = await db
+    .find({ collection: 'pages', slug: 'contact' }, ['title','content'])
+    .first()
+
   return {
     page,
     allPeople,
-    howWeWork
+    howWeWork,
+    contact
   }
 } 

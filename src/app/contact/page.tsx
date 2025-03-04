@@ -2,6 +2,7 @@ import Layout from '@/components/Layout'
 import { load } from 'outstatic/server'
 import markdownToHtml from '@/lib/markdownToHtml'
 import ContactForm from '@/components/ContactForm'
+import Image from 'next/image'
 
 export default async function Contact() {
   const { page } = await getData()
@@ -12,15 +13,10 @@ export default async function Contact() {
       <section id="contact" className="pt-16 pb-16 bg-forest text-cream">
         <div className="container max-w-screen-md mx-auto mx-auto">
           <h2 className="text-cream uppercase tracking-wider font-semibold text-center mb-12">
-            Let's Talk
+            {page.title}
           </h2>
           <div className="mt-8">
-            <h3 className="text-cream text-5xl text-center font-title uppercase mb-8">
-              Ready to get started?
-            </h3>
-            <p className="text-cream text-justify mb-12">
-              {`Building strong donor relationships takes time and care. Whether you're looking to deepen engagement, grow monthly giving, or connect with major donors, we're here to help. Let's work together to create a thoughtful strategy that fits your organization's needs. Reach out - we'd love to chat!`}
-            </p>
+            <div className="prose max-w-none mx-auto mb-8 prose-cream prose-h1:text-cream prose-h1:font-title prose-h1:text-5xl prose-h1:mb-8 prose-h1:text-center text-cream" dangerouslySetInnerHTML={{ __html: content }} />
             <ContactForm />
           </div>
         </div>
@@ -30,19 +26,25 @@ export default async function Contact() {
         <div className="container max-w-screen-xl mx-auto">
           <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-white p-12 shadow-lg">
-              <h3 className="text-2xl font-title mb-4">Email</h3>
+              <h3 className="text-5xl font-title mb-4 flex items-center gap-4">
+                <Image src="/images/email-icon.svg" alt="Email" width={45} height={45} />
+                <span className="pt-1">Email</span>
+              </h3>
               <a 
                 href="mailto:hello@corephilanthropygroup.com" 
-                className="text-emerald hover:text-olive transition-colors"
+                className="text-black hover:text-emerald transition-colors"
               >
                 hello@corephilanthropygroup.com
               </a>
             </div>
-            <div className="bg-white p-8 shadow-lg">
-              <h3 className="text-2xl font-title mb-4">Phone</h3>
+            <div className="bg-white p-12 shadow-lg">
+              <h3 className="text-5xl font-title mb-4 flex items-center gap-4">
+                <Image src="/images/phone-icon.svg" alt="Phone" width={40} height={40} />
+                <span className="pt-1">Phone</span>
+              </h3>
               <a 
-                href="tel:+1234567890" 
-                className="text-emerald hover:text-olive transition-colors"
+                href="tel:+1234567890"
+                className="text-black hover:text-emerald transition-colors"
               >
                 (123) 456-7890
               </a>
@@ -58,7 +60,7 @@ async function getData() {
   const db = await load()
 
   const page = await db
-    .find({ collection: 'pages', slug: 'contact' }, ['content'])
+    .find({ collection: 'pages', slug: 'contact' }, ['title','content'])
     .first()
 
   return {

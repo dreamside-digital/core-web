@@ -6,8 +6,9 @@ import CaseStudies from '@/components/CaseStudies'
 import ContactForm from '@/components/ContactForm'
 
 export default async function Index() {
-  const { page, allCaseStudies, allServices } = await getData()
+  const { page, allCaseStudies, allServices, contact } = await getData()
   const content = await markdownToHtml(page.content)
+  const contactContent = await markdownToHtml(contact.content)
   
   // Process case studies content
   const processedCaseStudies = await Promise.all(
@@ -22,7 +23,7 @@ export default async function Index() {
       <section className="pt-16 pb-16">
         <div className="container max-w-screen-xl mx-auto px-4 mx-auto text-center">
           <div
-            className="prose mx-auto lg:prose-2xl prose-cream prose-h1:text-cream text-cream"
+            className="prose mx-auto lg:prose-2xl prose-cream prose-h1:text-cream prose-h1:font-semibold text-cream prose-h1:leading-tight prose-h1:text-6xl"
             dangerouslySetInnerHTML={{ __html: content }}
           />
           <div className="flex justify-center mt-8">
@@ -47,7 +48,12 @@ export default async function Index() {
                   </div>
                   <div className="basis-1/2">
                     <div
-                      className="prose text-forest"
+                      className="prose max-w-none [&>ul]:list-none [&>ul]:pl-0 [&>ul>li]:relative [&>ul>li]:pl-6 [&>ul>li]:mb-4
+                      [&>ul>li]:before:content-[''] [&>ul>li]:before:absolute [&>ul>li]:before:left-0 [&>ul>li]:before:top-[0.6em]
+                      [&>ul>li]:before:w-0 [&>ul>li]:before:h-0 
+                      [&>ul>li]:before:border-t-[6px] [&>ul>li]:before:border-t-[transparent]
+                      [&>ul>li]:before:border-l-[8px] [&>ul>li]:before:border-l-emerald
+                      [&>ul>li]:before:border-b-[6px] [&>ul>li]:before:border-b-[transparent]"
                       dangerouslySetInnerHTML={{ __html: content }}
                     />
                   </div>
@@ -68,15 +74,10 @@ export default async function Index() {
       <section id="contact" className="pt-16 pb-16 bg-forest text-cream">
         <div className="container max-w-screen-md mx-auto mx-auto">
           <h2 className="text-cream uppercase tracking-wider font-semibold text-center mb-12">
-            Let's Talk
+            {contact.title}
           </h2>
           <div className="mt-8">
-            <h3 className="text-cream text-5xl text-center font-title uppercase mb-8">
-              Ready to get started?
-            </h3>
-            <p className="text-cream text-justify mb-12">
-              {`Building strong donor relationships takes time and care. Whether you're looking to deepen engagement, grow monthly giving, or connect with major donors, we're here to help. Let's work together to create a thoughtful strategy that fits your organization's needs. Reach out - we'd love to chat!`}
-            </p>
+            <div className="prose max-w-none mx-auto mb-8 prose-cream prose-h1:text-cream prose-h1:font-title prose-h1:text-5xl prose-h1:mb-8 prose-h1:text-center text-cream" dangerouslySetInnerHTML={{ __html: contactContent }} />
             <ContactForm />
           </div>
         </div>
@@ -114,11 +115,15 @@ async function getData() {
     .sort({ publishedAt: 1 })
     .toArray()
 
+  const contact = await db
+    .find({ collection: 'pages', slug: 'contact' }, ['title','content'])
+    .first()
 
   return {
     page,
     allPosts,
     allServices,
-    allCaseStudies
+    allCaseStudies,
+    contact
   }
 }
