@@ -1,6 +1,6 @@
 {
-  "commit": "352cab1b57650acd7debe1e9831e650f90ce7c09",
-  "generated": "2025-03-04T20:43:04.053Z",
+  "commit": "cc99064d6575c8e356e64ff0333a6c7e6a81674f",
+  "generated": "2025-03-04T20:43:10.406Z",
   "media": [
     {
       "__outstatic": {
@@ -11,6 +11,17 @@
       "alt": "",
       "filename": "jupiter-spaceship.png",
       "publishedAt": "2025-03-03T18:13:40.669Z",
+      "type": "image"
+    },
+    {
+      "__outstatic": {
+        "commit": "cc99064d6575c8e356e64ff0333a6c7e6a81674f",
+        "hash": "3275149928",
+        "path": "public/images/logo-horizontal-primary-Y2NT.svg"
+      },
+      "alt": "",
+      "filename": "logo-horizontal-primary-Y2NT.svg",
+      "publishedAt": "2025-03-04T20:43:10.406Z",
       "type": "image"
     },
     {
