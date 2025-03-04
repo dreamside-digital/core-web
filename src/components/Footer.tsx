@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 
-export default function Footer() {
+export default function Footer({ config }: { config: any }) {
   const currentYear = new Date().getFullYear()
 
   return (
@@ -12,8 +12,8 @@ export default function Footer() {
           <div className="flex flex-col">
             <div className="relative w-48 h-24">
               <Image
-                src="/images/logo-horizontal-white.svg"
-                alt="Core Philanthropy Group"
+                src={config.footerLogo as string}
+                alt={config.websiteTitle as string}
                 fill
                 style={{ objectFit: 'contain' }}
                 priority
@@ -32,7 +32,7 @@ export default function Footer() {
             <Link href="/contact" className="hover:text-gray-400 transition-colors">
               Contact Us
             </Link>
-            <Link href="/contact" className="hover:text-gray-400 transition-colors">
+            <Link href={config.calendarLink as string} className="hover:text-gray-400 transition-colors">
               Book a Call
             </Link>
           </div>

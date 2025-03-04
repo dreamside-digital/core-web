@@ -1,6 +1,7 @@
 import { absoluteUrl } from '@/lib/utils'
 import { Metadata } from 'next'
 import { Montserrat, Bebas_Neue } from 'next/font/google' 
+import { load } from 'outstatic/server'
 import '../styles/index.css'
 
 
@@ -17,31 +18,37 @@ const bebas_neue = Bebas_Neue({
   variable: '--font-bebas-neue',
 })
 
-export const metadata: Metadata = {
-  metadataBase: new URL('https://corephilanthropygroup.com'),
-  title: {
-    default: 'Core Philanthropy Group',
-    template: '%s | Core Philanthropy Group'
-  },
-  description: 'Our mission is to help you better understand, communicate with, and engage your core audiences.',
-  openGraph: {
-    title: 'Core Philanthropy Group',
-    description: 'Our mission is to help you better understand, communicate with, and engage your core audiences.',
-    url: absoluteUrl('/'),
-    siteName: 'Core Philanthropy Group',
-    images: [
-      {
-        url: absoluteUrl('/images/og-image.png'),
-        width: 1800,
-        height: 1600
-      }
-    ],
-    locale: 'en_CA',
-    type: 'website'
-  },
-  icons: {
-    icon: [{ url: '/favicon/favicon-32x32.png' }],
-    apple: [{ url: '/favicon/apple-touch-icon.png' }]
+export async function generateMetadata() {
+  const db = await load()
+  const config = await db.find({ collection: 'general' }, ['defaultShareImage', 'websiteTitle', 'websiteDescription'])
+  .first()
+
+  return {
+    metadataBase: new URL('https://corephilanthropygroup.com'),
+    title: {
+      default: config.websiteTitle,
+      template: `%s | ${config.websiteTitle}`
+    },
+    description: config.websiteDescription,
+    openGraph: {
+      title: config.websiteTitle,
+      description: config.websiteDescription,
+      url: absoluteUrl('/'),
+      siteName: config.websiteTitle,
+      images: [
+        {
+          url: absoluteUrl(config.defaultShareImage as string),
+          width: 1800,
+          height: 1600
+        }
+      ],
+      locale: 'en_CA',
+      type: 'website'
+    },
+    icons: {
+      icon: [{ url: '/favicon/favicon-32x32.png' }],
+      apple: [{ url: '/favicon/apple-touch-icon.png' }]
+    }
   }
 }
 
