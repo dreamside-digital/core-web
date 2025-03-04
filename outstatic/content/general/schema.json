@@ -25,6 +25,12 @@
       "fieldType": "Image",
       "dataType": "image",
       "title": "Footer logo"
+    },
+    "primaryLogo": {
+      "required": false,
+      "fieldType": "Image",
+      "dataType": "image",
+      "title": "Primary logo"
     }
   }
 }
