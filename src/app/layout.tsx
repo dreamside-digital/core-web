@@ -22,7 +22,7 @@ export async function generateMetadata() {
   const db = await load()
   const config = await db.find({ collection: 'general' }, ['defaultShareImage', 'websiteTitle', 'websiteDescription'])
   .first()
-
+console.log(config)
   return {
     metadataBase: new URL('https://corephilanthropygroup.com'),
     title: {
