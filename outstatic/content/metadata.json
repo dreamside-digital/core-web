@@ -1,6 +1,6 @@
 {
-  "commit": "d3c09eaf68975131bfa38f5382bf27c7f733c86e",
-  "generated": "2025-03-04T17:31:29.172Z",
+  "commit": "a4a465803474f40d299788432c6928045e2041f8",
+  "generated": "2025-03-04T17:31:52.879Z",
   "metadata": [
     {
       "__outstatic": {
@@ -253,23 +253,6 @@
     },
     {
       "__outstatic": {
-        "commit": "75e8c2c75e5d5a5835e19ab3c984fe615d65aa08",
-        "hash": "1940613534",
-        "path": "outstatic/content/people/mike-wozniak.mdx"
-      },
-      "author": {
-        "name": "Shay",
-        "picture": "https://avatars.githubusercontent.com/u/10519011?v=4"
-      },
-      "collection": "people",
-      "photo": "",
-      "publishedAt": "2025-03-04T16:51:53.664Z",
-      "slug": "mike-wozniak",
-      "status": "published",
-      "title": "Mike Wozniak"
-    },
-    {
-      "__outstatic": {
         "commit": "d3c09eaf68975131bfa38f5382bf27c7f733c86e",
         "hash": "2023450676",
         "path": "outstatic/content/people/liam-epps.mdx"
@@ -284,6 +267,23 @@
       "slug": "liam-epps",
       "status": "published",
       "title": "Liam Epps"
+    },
+    {
+      "__outstatic": {
+        "commit": "a4a465803474f40d299788432c6928045e2041f8",
+        "hash": "4163168389",
+        "path": "outstatic/content/people/mike-wozniak.mdx"
+      },
+      "author": {
+        "name": "Shay",
+        "picture": "https://avatars.githubusercontent.com/u/10519011?v=4"
+      },
+      "collection": "people",
+      "photo": "",
+      "publishedAt": "2025-03-04T16:51:53.664Z",
+      "slug": "mike-wozniak",
+      "status": "published",
+      "title": "Mike Wozniak"
     }
   ]
 }
