@@ -4,7 +4,7 @@ import Image from 'next/image'
 export default function Navigation() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50">
-      <nav className="container bg-cream mt-4 mx-auto px-4 py-2 flex items-center justify-between shadow-lg">
+      <nav className="container max-w-screen-xl bg-cream mt-4 mx-auto px-4 py-2 flex items-center justify-between shadow-lg">
         {/* Logo */}
         <Link href="/" className="w-24">
           <Image

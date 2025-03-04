@@ -4,15 +4,15 @@ import markdownToHtml from '../lib/markdownToHtml'
 import Link from 'next/link'
 
 export default async function Index() {
-  const { page, allPosts, allServices } = await getData()
+  const { page, allCaseStudies, allServices } = await getData()
   const content = await markdownToHtml(page.content)
 
   return (
     <Layout>
       <section className="pt-16 pb-16">
-        <div className="container mx-auto px-4 mx-auto text-center">
+        <div className="container max-w-screen-xl mx-auto px-4 mx-auto text-center">
           <div
-            className="prose lg:prose-2xl prose-cream prose-h1:text-cream text-cream"
+            className="prose mx-auto lg:prose-2xl prose-cream prose-h1:text-cream text-cream"
             dangerouslySetInnerHTML={{ __html: content }}
           />
           <div className="flex justify-center mt-8">
@@ -22,7 +22,7 @@ export default async function Index() {
       </section>
 
       <section id="services" className="pt-16 pb-16 bg-cream text-forest">
-        <div className="container mx-auto px-4 mx-auto">
+        <div className="container max-w-screen-xl mx-auto px-4 mx-auto">
           <h2 className="text-forest uppercase tracking-wider font-semibold text-center mb-8">Our Services</h2>
 
           <div className="">
@@ -32,6 +32,31 @@ export default async function Index() {
                 <div key={service.title} className="w-full flex flex-col md:flex-row gap-6 my-12">
                   <div className="basis-1/2">
                     <h3 className="text-forest text-5xl font-title mb-4">{service.title}</h3>
+                  </div>
+                  <div className="basis-1/2">
+                    <div
+                      className="prose text-forest"
+                      dangerouslySetInnerHTML={{ __html: content }}
+                    />
+                  </div>
+                </div>
+              )
+            })}
+          </div>
+        </div>
+      </section>
+
+      <section id="case-studies" className="pt-16 pb-16 bg-snow text-forest">
+        <div className="container max-w-screen-xl mx-auto px-4 mx-auto">
+          <h2 className="text-forest uppercase tracking-wider font-semibold text-center mb-8">Case Studies</h2>
+
+          <div className="">
+            {allCaseStudies.map(async (caseStudy) => {
+              const content = await markdownToHtml(caseStudy.content)
+              return (
+                <div key={caseStudy.title} className="w-full flex flex-col md:flex-row gap-6 my-12">
+                  <div className="basis-1/2">
+                    <h3 className="text-forest text-5xl font-title mb-4">{caseStudy.title}</h3>
                   </div>
                   <div className="basis-1/2">
                     <div
@@ -73,14 +98,19 @@ async function getData() {
 
   const allServices = await db
     .find({ collection: 'services' }, ['title', 'content'])
-    .sort({ publishedAt: -1 })
+    .sort({ publishedAt: 1 })
     .toArray()
 
-    console.log({allServices})
+  const allCaseStudies = await db
+    .find({ collection: 'case-studies' }, ['title', 'content'])
+    .sort({ publishedAt: 1 })
+    .toArray()
+
 
   return {
     page,
     allPosts,
-    allServices
+    allServices,
+    allCaseStudies
   }
 }

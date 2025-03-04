@@ -24,6 +24,10 @@ module.exports = {
       body: ['var(--font-montserrat)', 'sans-serif'],
       title: ['var(--font-bebas-neue)', 'sans-serif'],
     },
+    container: {
+      center: true,
+      padding: '1rem',
+    },
   },
   extend: {
     typography: () => ({
