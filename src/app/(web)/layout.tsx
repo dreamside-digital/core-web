@@ -2,7 +2,7 @@ import { absoluteUrl } from '@/lib/utils'
 import { Metadata } from 'next'
 import { Montserrat, Bebas_Neue } from 'next/font/google' 
 import { load } from 'outstatic/server'
-import '../styles/index.css'
+import '@/styles/index.css'
 
 
 const montserrat = Montserrat({

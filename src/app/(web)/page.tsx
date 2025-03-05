@@ -1,9 +1,10 @@
-import Layout from '../components/Layout'
+import Layout from '@/components/Layout'
 import { load } from 'outstatic/server'
-import markdownToHtml from '../lib/markdownToHtml'
+import markdownToHtml from '@/lib/markdownToHtml'
 import Link from 'next/link'
 import CaseStudies from '@/components/CaseStudies'
 import ContactForm from '@/components/ContactForm'
+import Image from 'next/image'
 
 export default async function Index() {
   const { page, allCaseStudies, allServices, contact } = await getData()
@@ -20,8 +21,18 @@ export default async function Index() {
 
   return (
     <Layout>
-      <section className="pt-16 pb-16">
-        <div className="container max-w-screen-xl mx-auto text-center">
+      <section className="pt-16 pb-16 relative overflow-hidden">
+        <div className="absolute inset-0 flex items-center justify-center opacity-5">
+          <Image
+            src="/images/logomark-white.svg"
+            alt=""
+            width={600}
+            height={600}
+            className="w-auto h-full"
+            priority
+          />
+        </div>
+        <div className="container max-w-screen-xl mx-auto text-center relative">
           <div
             className="prose mx-auto lg:prose-2xl prose-cream prose-h1:text-cream prose-h1:font-semibold text-cream prose-h1:leading-tight prose-h1:text-6xl"
             dangerouslySetInnerHTML={{ __html: content }}
@@ -30,7 +41,7 @@ export default async function Index() {
             <Link href={page.buttonLink as string} className="btn btn-emerald">
               {page.buttonText as string}
             </Link>
-            </div>
+          </div>
         </div>
       </section>
 
