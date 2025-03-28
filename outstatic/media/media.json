@@ -1,7 +1,18 @@
 {
-  "commit": "76b55560e791046fb47f30adcca6de2aaad704da",
-  "generated": "2025-03-04T21:27:15.453Z",
+  "commit": "3cf837ef529e3761e19f1d3821d6373f61b89d93",
+  "generated": "2025-03-28T18:38:43.024Z",
   "media": [
+    {
+      "__outstatic": {
+        "commit": "3cf837ef529e3761e19f1d3821d6373f61b89d93",
+        "hash": "3922597931",
+        "path": "public/images/core-infographic-QxMj.svg"
+      },
+      "alt": "",
+      "filename": "core-infographic-QxMj.svg",
+      "publishedAt": "2025-03-28T18:38:43.022Z",
+      "type": "image"
+    },
     {
       "__outstatic": {
         "commit": "",
