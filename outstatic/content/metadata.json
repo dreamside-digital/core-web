@@ -1,6 +1,6 @@
 {
-  "commit": "720ae682ec1aa59f9b1d313adc9b1c35e12daa0a",
-  "generated": "2025-03-04T22:59:28.227Z",
+  "commit": "33973872329fc8aa8e8a3e2bbb2e6251c6fc0087",
+  "generated": "2025-03-28T18:45:29.236Z",
   "metadata": [
     {
       "__outstatic": {
@@ -17,26 +17,6 @@
       "slug": "hopeworks-foundation",
       "status": "draft",
       "title": "HopeWorks Foundation"
-    },
-    {
-      "__outstatic": {
-        "commit": "4628e3765afe630ca3e417078a8a82e107e2acf1",
-        "hash": "4058873883",
-        "path": "outstatic/content/pages/home.md"
-      },
-      "author": {
-        "name": "Shay",
-        "picture": ""
-      },
-      "buttonLink": "/contact",
-      "buttonText": "Book a call",
-      "collection": "pages",
-      "coverImage": "",
-      "description": "This is my blog.",
-      "publishedAt": "2025-03-03T05:00:00.000Z",
-      "slug": "home",
-      "status": "published",
-      "title": "Home"
     },
     {
       "__outstatic": {
@@ -239,6 +219,27 @@
       "slug": "mike-wozniak",
       "status": "published",
       "title": "Mike"
+    },
+    {
+      "__outstatic": {
+        "commit": "33973872329fc8aa8e8a3e2bbb2e6251c6fc0087",
+        "hash": "2367346375",
+        "path": "outstatic/content/pages/home.md"
+      },
+      "author": {
+        "name": "Shay",
+        "picture": ""
+      },
+      "buttonLink": "/contact",
+      "buttonText": "Book a call",
+      "collection": "pages",
+      "coverImage": "",
+      "description": "This is my blog.",
+      "infographic": "/images/core-infographic-QxMj.svg",
+      "publishedAt": "2025-03-03T05:00:00.000Z",
+      "slug": "home",
+      "status": "draft",
+      "title": "Home"
     }
   ]
 }
