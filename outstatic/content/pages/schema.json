@@ -15,6 +15,12 @@
       "fieldType": "String",
       "dataType": "string",
       "title": "Button link"
+    },
+    "infographic": {
+      "required": false,
+      "fieldType": "Image",
+      "dataType": "image",
+      "title": "infographic"
     }
   }
 }
