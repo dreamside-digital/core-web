@@ -5,7 +5,7 @@ import Link from 'next/link'
 import CaseStudies from '@/components/CaseStudies'
 import ContactForm from '@/components/ContactForm'
 import Image from 'next/image'
-import CoreHexagon from '@/components/CoreHexagon'
+
 export default async function Index() {
   const { page, allCaseStudies, allServices, contact } = await getData()
   const content = await markdownToHtml(page.content)
@@ -18,6 +18,7 @@ export default async function Index() {
       content: await markdownToHtml(caseStudy.content)
     }))
   )
+  console.log({page})
 
   return (
     <Layout>
@@ -73,7 +74,7 @@ export default async function Index() {
             })}
           </div>
           <div className="flex justify-center">
-            <Image src="/images/core-infographic.svg" alt="Infographic" width={800} height={800} />
+            <Image src={page.infographic as string} alt="Infographic" width={800} height={800} />
           </div>
         </div>
       </section>
@@ -104,7 +105,7 @@ async function getData() {
   const db = await load()
 
   const page = await db
-    .find({ collection: 'pages', slug: 'home' }, ['content', 'buttonText', 'buttonLink'])
+    .find({ collection: 'pages', slug: 'home' }, ['content', 'buttonText', 'buttonLink', 'infographic'])
     .first()
 
   const allPosts = await db
