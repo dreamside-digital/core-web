@@ -5,7 +5,7 @@ import Link from 'next/link'
 import CaseStudies from '@/components/CaseStudies'
 import ContactForm from '@/components/ContactForm'
 import Image from 'next/image'
-
+import CoreHexagon from '@/components/CoreHexagon'
 export default async function Index() {
   const { page, allCaseStudies, allServices, contact } = await getData()
   const content = await markdownToHtml(page.content)
@@ -71,6 +71,9 @@ export default async function Index() {
                 </div>
               )
             })}
+          </div>
+          <div className="flex justify-center">
+            <Image src="/images/core-infographic.svg" alt="Infographic" width={800} height={800} />
           </div>
         </div>
       </section>
