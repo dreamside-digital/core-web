@@ -1,6 +1,6 @@
 {
-  "commit": "33973872329fc8aa8e8a3e2bbb2e6251c6fc0087",
-  "generated": "2025-03-28T18:45:29.236Z",
+  "commit": "5329c9989d0beb819291ff73392495b72dc783a1",
+  "generated": "2025-03-28T18:45:32.653Z",
   "metadata": [
     {
       "__outstatic": {
@@ -222,8 +222,8 @@
     },
     {
       "__outstatic": {
-        "commit": "33973872329fc8aa8e8a3e2bbb2e6251c6fc0087",
-        "hash": "2367346375",
+        "commit": "5329c9989d0beb819291ff73392495b72dc783a1",
+        "hash": "767032847",
         "path": "outstatic/content/pages/home.md"
       },
       "author": {
@@ -238,7 +238,7 @@
       "infographic": "/images/core-infographic-QxMj.svg",
       "publishedAt": "2025-03-03T05:00:00.000Z",
       "slug": "home",
-      "status": "draft",
+      "status": "published",
       "title": "Home"
     }
   ]
