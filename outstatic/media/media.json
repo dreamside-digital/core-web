@@ -1,6 +1,6 @@
 {
-  "commit": "3cf837ef529e3761e19f1d3821d6373f61b89d93",
-  "generated": "2025-03-28T18:38:43.024Z",
+  "commit": "4bcadcdc177aba867461d15f1fe1e9497eb08588",
+  "generated": "2025-04-01T16:46:45.543Z",
   "media": [
     {
       "__outstatic": {
@@ -11,6 +11,17 @@
       "alt": "",
       "filename": "core-infographic-QxMj.svg",
       "publishedAt": "2025-03-28T18:38:43.022Z",
+      "type": "image"
+    },
+    {
+      "__outstatic": {
+        "commit": "4bcadcdc177aba867461d15f1fe1e9497eb08588",
+        "hash": "987259539",
+        "path": "public/images/favicon-g1ND.svg"
+      },
+      "alt": "",
+      "filename": "favicon-g1ND.svg",
+      "publishedAt": "2025-04-01T16:46:45.540Z",
       "type": "image"
     },
     {
