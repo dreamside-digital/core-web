@@ -1,6 +1,6 @@
 {
-  "commit": "a03ea734a4bf03440f42670bbe3b80c9204dbc37",
-  "generated": "2025-04-01T16:47:17.974Z",
+  "commit": "c5466e4b84651ef7aebe53b23bb88333fdb5ba61",
+  "generated": "2025-04-01T16:52:07.261Z",
   "metadata": [
     {
       "__outstatic": {
@@ -218,8 +218,8 @@
     },
     {
       "__outstatic": {
-        "commit": "a03ea734a4bf03440f42670bbe3b80c9204dbc37",
-        "hash": "2876645913",
+        "commit": "c5466e4b84651ef7aebe53b23bb88333fdb5ba61",
+        "hash": "1060794490",
         "path": "outstatic/content/general/general-configuration.mdx"
       },
       "author": {
@@ -236,7 +236,8 @@
       "publishedAt": "2025-04-01T04:00:00.000Z",
       "shareImage": "/images/og-image-AwMD.png",
       "slug": "general-configuration",
-      "status": "published",
+      "smallLogo": "/images/favicon-g1ND.svg",
+      "status": "draft",
       "title": "General configuration",
       "websiteDescription": "Our mission is to help you better understand, communicate with, and engage your core audiences.",
       "websiteTitle": "CORE Philanthropy Group"
