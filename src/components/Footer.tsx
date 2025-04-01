@@ -25,7 +25,7 @@ export default function Footer({ config }: { config: any }) {
           </div>
 
           {/* Right Column */}
-          <div className="flex flex-col space-y-4 items-end text-right">
+          <div className="flex flex-col space-y-4 md:items-end md:text-right">
             <Link href="/about" className="hover:text-gray-400 transition-colors">
               About Us
             </Link>

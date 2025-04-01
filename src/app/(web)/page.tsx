@@ -21,7 +21,7 @@ export default async function Index() {
 
   return (
     <Layout>
-      <section className="pt-16 pb-16 relative overflow-hidden">
+      <section className="pt-8 sm:pt-16 pb-12 sm:pb-16 relative overflow-hidden">
         <div className="absolute inset-0 flex items-center justify-center opacity-5">
           <Image
             src="/images/logomark-white.svg"

@@ -48,7 +48,7 @@ export default async function About() {
           </h2>
           <div className="grid gap-12">
             {people.map((person) => (
-              <div key={person.title} className="flex gap-6 bg-white p-12 shadow-lg">
+              <div key={person.title} className="flex gap-6 bg-white p-6 sm:p-12 shadow-lg">
                 {person.image && (
                   <div className="w-48 h-48 aspect-square">
                     <Image src={person.image as string} alt={person.title} className="w-full h-full bg-snow object-cover" />

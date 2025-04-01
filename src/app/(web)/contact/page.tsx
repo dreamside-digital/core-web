@@ -25,8 +25,8 @@ export default async function Contact() {
       <section className="pt-16 pb-16 bg-snow text-forest">
         <div className="container max-w-screen-xl mx-auto">
           <div className="grid md:grid-cols-2 gap-8">
-            <div className="bg-white p-12 shadow-lg">
-              <h3 className="text-5xl font-title mb-4 flex items-center gap-4">
+            <div className="bg-white p-6 sm:p-12 shadow-lg">
+              <h3 className="text-3xl sm:text-5xl font-title mb-4 flex items-center gap-4">
                 <Image src="/images/email-icon.svg" alt="Email" width={45} height={45} />
                 <span className="pt-1">Email</span>
               </h3>
@@ -37,8 +37,8 @@ export default async function Contact() {
                   {config.emailAddress as string}
               </a>
             </div>
-            <div className="bg-white p-12 shadow-lg">
-              <h3 className="text-5xl font-title mb-4 flex items-center gap-4">
+            <div className="bg-white p-6 sm:p-12 shadow-lg">
+              <h3 className="text-3xl sm:text-5xl font-title mb-4 flex items-center gap-4">
                 <Image src="/images/phone-icon.svg" alt="Phone" width={40} height={40} />
                 <span className="pt-1">Phone</span>
               </h3>

@@ -18,7 +18,7 @@ export default function CaseStudies({ caseStudies }: { caseStudies: CaseStudy[] 
       <Swiper
         style={{
           '--swiper-navigation-color': '#3B9900',
-          '--swiper-navigation-size': '34px',
+          '--swiper-navigation-size': '24px',
           '--swiper-pagination-color': '#3B9900',
         } as any}
         className="shadow-lg"
@@ -38,11 +38,11 @@ export default function CaseStudies({ caseStudies }: { caseStudies: CaseStudy[] 
         {caseStudies.map((caseStudy) => (
           <SwiperSlide
             key={caseStudy.title}
-            className="w-full bg-white px-16 py-12"
+            className="w-full bg-white px-4 sm:px-16 py-4 sm:py-12"
           >
-            <div className="w-full flex flex-col md:flex-row gap-6 bg-white p-12">
+            <div className="w-full flex flex-col md:flex-row gap-6 bg-white p-4 sm:p-12">
               <div className="basis-1/2">
-                <h3 className="text-forest text-5xl font-title mb-4">{caseStudy.title}</h3>
+                <h3 className="text-forest text-3xl sm:text-5xl font-title sm:mb-4">{caseStudy.title}</h3>
               </div>
               <div className="basis-1/2">
                 <div

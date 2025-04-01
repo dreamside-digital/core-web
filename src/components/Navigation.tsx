@@ -15,7 +15,7 @@ export default function Navigation({ config }: { config: any }) {
             />
           </Link>
 
-          <Link href="/" className="sm:hidden w-12">
+          <Link href="/" className="sm:hidden w-8">
             <Image
               src={config.smallLogo as string}
               alt={config.websiteTitle as string}
