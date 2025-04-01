@@ -49,6 +49,13 @@
       "fieldType": "Image",
       "dataType": "image",
       "title": "Share image"
+    },
+    "smallLogo": {
+      "description": "The header logo for mobile",
+      "required": false,
+      "fieldType": "Image",
+      "dataType": "image",
+      "title": "Small Logo"
     }
   }
 }
