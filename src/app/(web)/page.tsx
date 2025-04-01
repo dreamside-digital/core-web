@@ -34,7 +34,7 @@ export default async function Index() {
         </div>
         <div className="container max-w-screen-xl mx-auto text-center relative">
           <div
-            className="prose mx-auto lg:prose-2xl prose-cream prose-h1:text-cream prose-h1:font-semibold text-cream prose-h1:leading-tight prose-h1:text-6xl"
+            className="prose mx-auto lg:prose-2xl prose-cream prose-h1:text-cream prose-h1:font-semibold text-cream prose-h1:leading-tight prose-h1:lg:text-6xl"
             dangerouslySetInnerHTML={{ __html: content }}
           />
           <div className="flex justify-center mt-8">
@@ -57,7 +57,7 @@ export default async function Index() {
               return (
                 <div key={service.title} className="w-full flex flex-col md:flex-row gap-6 my-12">
                   <div className="basis-1/2">
-                    <h3 className="text-forest text-5xl font-title mb-4">{service.title}</h3>
+                    <h3 className="text-forest text-5xl font-title">{service.title}</h3>
                   </div>
                   <div className="basis-1/2">
                     <div
@@ -76,14 +76,16 @@ export default async function Index() {
           </div>
         </div>
       </section>
-      <section id="case-studies" className="pt-16 pb-16 bg-snow text-forest">
-        <div className="container max-w-screen-xl mx-auto mx-auto">
-          <h2 className="text-forest uppercase tracking-wider font-semibold text-center mb-12">
+      {processedCaseStudies.length > 0 && (
+        <section id="case-studies" className="pt-16 pb-16 bg-snow text-forest">
+          <div className="container max-w-screen-xl mx-auto mx-auto">
+            <h2 className="text-forest uppercase tracking-wider font-semibold text-center mb-12">
             Case Studies
           </h2>
           <CaseStudies caseStudies={processedCaseStudies} />
         </div>
-      </section>
+        </section>
+      )}
       <section id="contact" className="pt-16 pb-16 bg-forest text-cream">
         <div className="container max-w-screen-md mx-auto mx-auto">
           <h2 className="text-cream uppercase tracking-wider font-semibold text-center mb-12">

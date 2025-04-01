@@ -40,6 +40,7 @@ export default async function About() {
         </div>
       </section>
 
+    {people.length > 0 && (
       <section id="team" className="pt-16 pb-16 bg-snow text-forest">
         <div className="container max-w-screen-xl mx-auto">
           <h2 className="text-forest uppercase tracking-wider font-semibold text-center mb-12">
@@ -62,6 +63,7 @@ export default async function About() {
           </div>
         </div>
       </section>
+      )}
 
       <section id="process" className="pt-16 pb-16 bg-cream text-forest">
         <div className="container max-w-screen-md mx-auto">
