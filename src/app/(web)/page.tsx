@@ -18,7 +18,6 @@ export default async function Index() {
       content: await markdownToHtml(caseStudy.content)
     }))
   )
-  console.log({page})
 
   return (
     <Layout>
@@ -49,7 +48,9 @@ export default async function Index() {
       <section id="services" className="pt-16 pb-16 bg-cream text-forest">
         <div className="container max-w-screen-xl mx-auto mx-auto">
           <h2 className="text-forest uppercase tracking-wider font-semibold text-center mb-8">Our Services</h2>
-
+          <div className="flex justify-center">
+            <Image src={page.infographic as string} alt="Infographic" width={600} height={600} />
+          </div>
           <div className="">
             {allServices.map(async (service) => {
               const content = await markdownToHtml(service.content)
@@ -72,9 +73,6 @@ export default async function Index() {
                 </div>
               )
             })}
-          </div>
-          <div className="flex justify-center">
-            <Image src={page.infographic as string} alt="Infographic" width={800} height={800} />
           </div>
         </div>
       </section>
