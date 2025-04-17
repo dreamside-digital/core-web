@@ -56,6 +56,12 @@
       "fieldType": "Image",
       "dataType": "image",
       "title": "Small Logo"
+    },
+    "ctaText": {
+      "required": false,
+      "fieldType": "Text",
+      "dataType": "string",
+      "title": "CTA text"
     }
   }
 }
