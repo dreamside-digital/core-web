@@ -9,7 +9,7 @@ type Props = {
 const Layout = async ({ children }: Props) => {
   const db = await load()
   const config = await db
-    .find({ collection: 'general' }, ['primaryLogo', 'footerLogo', 'smallLogo', 'calendarLink', 'websiteTitle'])
+    .find({ collection: 'general' }, ['primaryLogo', 'footerLogo', 'smallLogo', 'ctaLink', 'ctaText', 'websiteTitle'])
     .first()
 
   return (

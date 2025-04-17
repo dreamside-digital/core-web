@@ -35,10 +35,10 @@ export default function Navigation({ config }: { config: any }) {
 
           {/* CTA Button */}
           <Link
-            href={config.calendarLink as string}
+            href={config.ctaLink as string}
             className="bg-emerald text-white px-2 py-1 md:px-4 md:py-2 font-title hover:bg-olive transition-colors"
           >
-            Book a call
+            {config.ctaText}
           </Link>
         </div>
       </nav>

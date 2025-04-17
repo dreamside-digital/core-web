@@ -32,8 +32,8 @@ export default function Footer({ config }: { config: any }) {
             <Link href="/contact" className="hover:text-gray-400 transition-colors">
               Contact Us
             </Link>
-            <Link href={config.calendarLink as string} className="hover:text-gray-400 transition-colors">
-              Book a Call
+            <Link href={config.ctaLink as string} className="hover:text-gray-400 transition-colors">
+              {config.ctaText}
             </Link>
           </div>
         </div>
