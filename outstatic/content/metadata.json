@@ -1,6 +1,6 @@
 {
-  "commit": "f558a8da18599ea31904bc07f686c452f1884d44",
-  "generated": "2025-04-01T16:52:10.556Z",
+  "commit": "b8c3f77cb8b2d73bc4c947dbd5b836c937871a09",
+  "generated": "2025-04-17T18:21:22.105Z",
   "metadata": [
     {
       "__outstatic": {
@@ -49,22 +49,6 @@
       "slug": "fundraising",
       "status": "published",
       "title": "Fundraising"
-    },
-    {
-      "__outstatic": {
-        "commit": "311dbbb61215c5f10d20615207b0d8b96fe8eeba",
-        "hash": "4160195483",
-        "path": "outstatic/content/services/engagement.mdx"
-      },
-      "author": {
-        "name": "Shay",
-        "picture": "https://avatars.githubusercontent.com/u/10519011?v=4"
-      },
-      "collection": "services",
-      "publishedAt": "2025-03-03T21:59:48.096Z",
-      "slug": "engagement",
-      "status": "published",
-      "title": "Engagement"
     },
     {
       "__outstatic": {
@@ -241,6 +225,22 @@
       "title": "General configuration",
       "websiteDescription": "Our mission is to help you better understand, communicate with, and engage your core audiences.",
       "websiteTitle": "CORE Philanthropy Group"
+    },
+    {
+      "__outstatic": {
+        "commit": "b8c3f77cb8b2d73bc4c947dbd5b836c937871a09",
+        "hash": "2822797805",
+        "path": "outstatic/content/services/engagement.mdx"
+      },
+      "author": {
+        "name": "Shay",
+        "picture": "https://avatars.githubusercontent.com/u/10519011?v=4"
+      },
+      "collection": "services",
+      "publishedAt": "2025-04-17T04:00:00.000Z",
+      "slug": "engagement",
+      "status": "published",
+      "title": "Engagement"
     }
   ]
 }
