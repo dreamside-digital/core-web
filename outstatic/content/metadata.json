@@ -1,6 +1,6 @@
 {
-  "commit": "b8c3f77cb8b2d73bc4c947dbd5b836c937871a09",
-  "generated": "2025-04-17T18:21:22.105Z",
+  "commit": "f4382448d778b3e83802c5faf64255ab0d29b698",
+  "generated": "2025-04-17T18:45:01.409Z",
   "metadata": [
     {
       "__outstatic": {
@@ -202,32 +202,6 @@
     },
     {
       "__outstatic": {
-        "commit": "f558a8da18599ea31904bc07f686c452f1884d44",
-        "hash": "3014211137",
-        "path": "outstatic/content/general/general-configuration.mdx"
-      },
-      "author": {
-        "name": "Shay",
-        "picture": "https://avatars.githubusercontent.com/u/10519011?v=4"
-      },
-      "calendarLink": "https://calendly.com/shay-dreamsidedigital",
-      "collection": "general",
-      "emailAddress": "hello@corephilanthropygroup.com",
-      "favicon": "",
-      "footerLogo": "/images/logo-horizontal-white-I5Mj.svg",
-      "phoneNumber": "519-123-4567",
-      "primaryLogo": "/images/logo-horizontal-primary-Y2NT.svg",
-      "publishedAt": "2025-04-01T04:00:00.000Z",
-      "shareImage": "/images/og-image-AwMD.png",
-      "slug": "general-configuration",
-      "smallLogo": "/images/favicon-g1ND.svg",
-      "status": "published",
-      "title": "General configuration",
-      "websiteDescription": "Our mission is to help you better understand, communicate with, and engage your core audiences.",
-      "websiteTitle": "CORE Philanthropy Group"
-    },
-    {
-      "__outstatic": {
         "commit": "b8c3f77cb8b2d73bc4c947dbd5b836c937871a09",
         "hash": "2822797805",
         "path": "outstatic/content/services/engagement.mdx"
@@ -241,6 +215,34 @@
       "slug": "engagement",
       "status": "published",
       "title": "Engagement"
+    },
+    {
+      "__outstatic": {
+        "commit": "f4382448d778b3e83802c5faf64255ab0d29b698",
+        "hash": "2437683550",
+        "path": "outstatic/content/general/general-configuration.mdx"
+      },
+      "author": {
+        "name": "Shay",
+        "picture": "https://avatars.githubusercontent.com/u/10519011?v=4"
+      },
+      "calendarLink": "https://calendly.com/shay-dreamsidedigital",
+      "collection": "general",
+      "ctaLink": "/contact",
+      "ctaText": "Book a Call",
+      "emailAddress": "hello@corephilanthropygroup.com",
+      "favicon": "",
+      "footerLogo": "/images/logo-horizontal-white-I5Mj.svg",
+      "phoneNumber": "519-123-4567",
+      "primaryLogo": "/images/logo-horizontal-primary-Y2NT.svg",
+      "publishedAt": "2025-04-01T04:00:00.000Z",
+      "shareImage": "/images/og-image-AwMD.png",
+      "slug": "general-configuration",
+      "smallLogo": "/images/favicon-g1ND.svg",
+      "status": "published",
+      "title": "General configuration",
+      "websiteDescription": "Our mission is to help you better understand, communicate with, and engage your core audiences.",
+      "websiteTitle": "CORE Philanthropy Group"
     }
   ]
 }
