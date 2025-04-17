@@ -62,6 +62,12 @@
       "fieldType": "Text",
       "dataType": "string",
       "title": "CTA text"
+    },
+    "ctaLink": {
+      "required": false,
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "CTA link"
     }
   }
 }
