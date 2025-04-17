@@ -4,7 +4,7 @@ import { useForm } from '@formspree/react';
 
 
 export default function ContactForm() {
-  const [state, handleSubmit, reset] = useForm('xjkgnqab');
+  const [state, handleSubmit, reset] = useForm(process.env.NEXT_PUBLIC_FORM_ID as string);
   if (state.succeeded) {
     return(
       <div className="text-center text-lg font-semibold text-forest bg-cream p-4 shadow-lg">
