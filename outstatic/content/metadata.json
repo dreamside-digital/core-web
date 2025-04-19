@@ -1,6 +1,6 @@
 {
-  "commit": "f4382448d778b3e83802c5faf64255ab0d29b698",
-  "generated": "2025-04-17T18:45:01.409Z",
+  "commit": "8c5cfe019908626af94f3f9bcd68d1bbede27e0e",
+  "generated": "2025-04-19T00:36:52.745Z",
   "metadata": [
     {
       "__outstatic": {
@@ -218,8 +218,8 @@
     },
     {
       "__outstatic": {
-        "commit": "f4382448d778b3e83802c5faf64255ab0d29b698",
-        "hash": "2437683550",
+        "commit": "8c5cfe019908626af94f3f9bcd68d1bbede27e0e",
+        "hash": "88226914",
         "path": "outstatic/content/general/general-configuration.mdx"
       },
       "author": {
@@ -230,10 +230,10 @@
       "collection": "general",
       "ctaLink": "/contact",
       "ctaText": "Book a Call",
-      "emailAddress": "hello@corephilanthropygroup.com",
+      "emailAddress": "liam@corephilanthropygroup.com",
       "favicon": "",
       "footerLogo": "/images/logo-horizontal-white-I5Mj.svg",
-      "phoneNumber": "519-123-4567",
+      "phoneNumber": "519-589-1446",
       "primaryLogo": "/images/logo-horizontal-primary-Y2NT.svg",
       "publishedAt": "2025-04-01T04:00:00.000Z",
       "shareImage": "/images/og-image-AwMD.png",
