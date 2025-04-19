@@ -1,6 +1,6 @@
 {
-  "commit": "f4fd2439a7e875db281559f6fb13663cfd1ec526",
-  "generated": "2025-04-19T01:35:02.838Z",
+  "commit": "c01a965050aec7ce5490ffa16fb7614cba084024",
+  "generated": "2025-04-19T01:38:27.813Z",
   "metadata": [
     {
       "__outstatic": {
@@ -81,22 +81,6 @@
       "slug": "about",
       "status": "published",
       "title": "About"
-    },
-    {
-      "__outstatic": {
-        "commit": "609028fcda13b1b8a02ff767e9e9962c4e253c4f",
-        "hash": "3600473201",
-        "path": "outstatic/content/pages/how-we-work.mdx"
-      },
-      "author": {
-        "name": "Shay",
-        "picture": "https://avatars.githubusercontent.com/u/10519011?v=4"
-      },
-      "collection": "pages",
-      "publishedAt": "2025-03-04T17:12:41.294Z",
-      "slug": "how-we-work",
-      "status": "published",
-      "title": "How We Work"
     },
     {
       "__outstatic": {
@@ -243,6 +227,22 @@
       "slug": "home",
       "status": "published",
       "title": "Home"
+    },
+    {
+      "__outstatic": {
+        "commit": "c01a965050aec7ce5490ffa16fb7614cba084024",
+        "hash": "3938435443",
+        "path": "outstatic/content/pages/how-we-work.mdx"
+      },
+      "author": {
+        "name": "Shay",
+        "picture": "https://avatars.githubusercontent.com/u/10519011?v=4"
+      },
+      "collection": "pages",
+      "publishedAt": "2025-03-04T17:12:41.294Z",
+      "slug": "how-we-work",
+      "status": "published",
+      "title": "How We Work"
     }
   ]
 }
