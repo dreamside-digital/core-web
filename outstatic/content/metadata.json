@@ -1,6 +1,6 @@
 {
-  "commit": "8c5cfe019908626af94f3f9bcd68d1bbede27e0e",
-  "generated": "2025-04-19T00:36:52.745Z",
+  "commit": "f4fd2439a7e875db281559f6fb13663cfd1ec526",
+  "generated": "2025-04-19T01:35:02.838Z",
   "metadata": [
     {
       "__outstatic": {
@@ -181,27 +181,6 @@
     },
     {
       "__outstatic": {
-        "commit": "5329c9989d0beb819291ff73392495b72dc783a1",
-        "hash": "767032847",
-        "path": "outstatic/content/pages/home.md"
-      },
-      "author": {
-        "name": "Shay",
-        "picture": ""
-      },
-      "buttonLink": "/contact",
-      "buttonText": "Book a call",
-      "collection": "pages",
-      "coverImage": "",
-      "description": "This is my blog.",
-      "infographic": "/images/core-infographic-QxMj.svg",
-      "publishedAt": "2025-03-03T05:00:00.000Z",
-      "slug": "home",
-      "status": "published",
-      "title": "Home"
-    },
-    {
-      "__outstatic": {
         "commit": "b8c3f77cb8b2d73bc4c947dbd5b836c937871a09",
         "hash": "2822797805",
         "path": "outstatic/content/services/engagement.mdx"
@@ -243,6 +222,27 @@
       "title": "General configuration",
       "websiteDescription": "Our mission is to help you better understand, communicate with, and engage your core audiences.",
       "websiteTitle": "CORE Philanthropy Group"
+    },
+    {
+      "__outstatic": {
+        "commit": "f4fd2439a7e875db281559f6fb13663cfd1ec526",
+        "hash": "3767462455",
+        "path": "outstatic/content/pages/home.md"
+      },
+      "author": {
+        "name": "Shay",
+        "picture": ""
+      },
+      "buttonLink": "/contact",
+      "buttonText": "Book a call",
+      "collection": "pages",
+      "coverImage": "",
+      "description": "This is my blog.",
+      "infographic": "/images/core-infographic-QxMj.svg",
+      "publishedAt": "2025-03-03T05:00:00.000Z",
+      "slug": "home",
+      "status": "published",
+      "title": "Home"
     }
   ]
 }

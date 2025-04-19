@@ -13,6 +13,6 @@ buttonLink: "/contact"
 infographic: "/images/core-infographic-QxMj.svg"
 ---
 
-# We are fundraising professionals dedicated to diversifying your revenue streams.
+# The funding you need is within reach. We can make the connection. 
 
-We are collaborative and implement healthy, dynamic resource development programs.
+Core is a relationship-driven organization that can transform your fundraising program in any way you need, on your terms, to help you realize your vision. 
