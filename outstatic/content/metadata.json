@@ -1,6 +1,6 @@
 {
-  "commit": "b850dada1af6425d1cd798f3f242d69da70fc00b",
-  "generated": "2025-04-22T20:09:44.689Z",
+  "commit": "493c3543a0072641da0577994de0842548a79625",
+  "generated": "2025-04-22T20:09:55.465Z",
   "metadata": [
     {
       "__outstatic": {
@@ -218,7 +218,7 @@
     },
     {
       "__outstatic": {
-        "commit": "b850dada1af6425d1cd798f3f242d69da70fc00b",
+        "commit": "493c3543a0072641da0577994de0842548a79625",
         "hash": "2888821453",
         "path": "outstatic/content/general/general-configuration.mdx"
       },
