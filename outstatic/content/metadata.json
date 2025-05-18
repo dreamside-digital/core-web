@@ -1,6 +1,6 @@
 {
-  "commit": "493c3543a0072641da0577994de0842548a79625",
-  "generated": "2025-04-22T20:09:55.465Z",
+  "commit": "65dbf5acdea951b12002c2663a2bea8a5f4d011b",
+  "generated": "2025-05-18T01:28:56.123Z",
   "metadata": [
     {
       "__outstatic": {
@@ -202,22 +202,6 @@
     },
     {
       "__outstatic": {
-        "commit": "78026f51116e8eaba1c207873cca616f7cf8d3b8",
-        "hash": "1137106795",
-        "path": "outstatic/content/services/outreach.mdx"
-      },
-      "author": {
-        "name": "Shay",
-        "picture": "https://avatars.githubusercontent.com/u/10519011?v=4"
-      },
-      "collection": "services",
-      "publishedAt": "2025-03-03T21:58:53.098Z",
-      "slug": "outreach",
-      "status": "published",
-      "title": "Development Officer"
-    },
-    {
-      "__outstatic": {
         "commit": "493c3543a0072641da0577994de0842548a79625",
         "hash": "2888821453",
         "path": "outstatic/content/general/general-configuration.mdx"
@@ -243,6 +227,22 @@
       "title": "General configuration",
       "websiteDescription": "Our mission is to help you better understand, communicate with, and engage your core audiences.",
       "websiteTitle": "CORE Philanthropy Group"
+    },
+    {
+      "__outstatic": {
+        "commit": "65dbf5acdea951b12002c2663a2bea8a5f4d011b",
+        "hash": "4073970427",
+        "path": "outstatic/content/services/outreach.mdx"
+      },
+      "author": {
+        "name": "Shay",
+        "picture": "https://avatars.githubusercontent.com/u/10519011?v=4"
+      },
+      "collection": "services",
+      "publishedAt": "2025-03-03T21:58:53.098Z",
+      "slug": "outreach",
+      "status": "published",
+      "title": "Development Officer"
     }
   ]
 }
