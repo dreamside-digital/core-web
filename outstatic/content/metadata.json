@@ -1,6 +1,6 @@
 {
-  "commit": "842c1f48ff5e72912867e8856cbc883b48c83fa3",
-  "generated": "2025-05-18T01:37:09.284Z",
+  "commit": "5e79d66b93e6e9db8531513014536ff619838781",
+  "generated": "2025-05-18T01:38:13.930Z",
   "metadata": [
     {
       "__outstatic": {
@@ -17,22 +17,6 @@
       "slug": "hopeworks-foundation",
       "status": "draft",
       "title": "HopeWorks Foundation"
-    },
-    {
-      "__outstatic": {
-        "commit": "7bc41e1be16caf0fdae762306cd1fb2ed31e82d3",
-        "hash": "2509557322",
-        "path": "outstatic/content/case-studies/green-horizons.mdx"
-      },
-      "author": {
-        "name": "Shay",
-        "picture": "https://avatars.githubusercontent.com/u/10519011?v=4"
-      },
-      "collection": "case-studies",
-      "publishedAt": "2025-03-04T15:11:37.217Z",
-      "slug": "green-horizons",
-      "status": "published",
-      "title": "Green Horizons"
     },
     {
       "__outstatic": {
@@ -243,6 +227,22 @@
       "slug": "engagement",
       "status": "published",
       "title": "Corporate Sponsorship"
+    },
+    {
+      "__outstatic": {
+        "commit": "5e79d66b93e6e9db8531513014536ff619838781",
+        "hash": "780240311",
+        "path": "outstatic/content/case-studies/green-horizons.mdx"
+      },
+      "author": {
+        "name": "Shay",
+        "picture": "https://avatars.githubusercontent.com/u/10519011?v=4"
+      },
+      "collection": "case-studies",
+      "publishedAt": "2025-03-04T15:11:37.217Z",
+      "slug": "green-horizons",
+      "status": "draft",
+      "title": "Green Horizons"
     }
   ]
 }
