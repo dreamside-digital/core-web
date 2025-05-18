@@ -1,6 +1,6 @@
 {
-  "commit": "605372f7067c4db2d50f8582ed3d1a5d70f68edc",
-  "generated": "2025-05-18T01:45:07.482Z",
+  "commit": "3e03bb650b5d8024062073718abdf58c575079df",
+  "generated": "2025-05-18T01:45:18.618Z",
   "media": [
     {
       "__outstatic": {
@@ -22,6 +22,17 @@
       "alt": "",
       "filename": "favicon-g1ND.svg",
       "publishedAt": "2025-04-01T16:46:45.540Z",
+      "type": "image"
+    },
+    {
+      "__outstatic": {
+        "commit": "3e03bb650b5d8024062073718abdf58c575079df",
+        "hash": "3600444687",
+        "path": "public/images/horizontal-lockup---white-2x-I5Mz.webp"
+      },
+      "alt": "",
+      "filename": "horizontal-lockup---white-2x-I5Mz.webp",
+      "publishedAt": "2025-05-18T01:45:18.618Z",
       "type": "image"
     },
     {
