@@ -1,6 +1,6 @@
 {
-  "commit": "d5d7f48272d7a107d5e53a2b414276b7d6c5696c",
-  "generated": "2025-05-18T01:36:48.438Z",
+  "commit": "842c1f48ff5e72912867e8856cbc883b48c83fa3",
+  "generated": "2025-05-18T01:37:09.284Z",
   "metadata": [
     {
       "__outstatic": {
@@ -230,12 +230,12 @@
     },
     {
       "__outstatic": {
-        "commit": "d5d7f48272d7a107d5e53a2b414276b7d6c5696c",
-        "hash": "2964146564",
+        "commit": "842c1f48ff5e72912867e8856cbc883b48c83fa3",
+        "hash": "4100652226",
         "path": "outstatic/content/services/engagement.mdx"
       },
       "author": {
-        "name": "Shay",
+        "name": "Liam",
         "picture": "https://avatars.githubusercontent.com/u/10519011?v=4"
       },
       "collection": "services",
