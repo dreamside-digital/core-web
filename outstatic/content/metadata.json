@@ -1,6 +1,6 @@
 {
-  "commit": "558a15f4ec7862ef1b841bb51c793ee11e2b1d9b",
-  "generated": "2025-05-18T01:47:07.635Z",
+  "commit": "79ea501cf1faf6ef326d6e580e3c3eba4cec3654",
+  "generated": "2025-05-18T01:51:00.783Z",
   "metadata": [
     {
       "__outstatic": {
@@ -218,8 +218,8 @@
     },
     {
       "__outstatic": {
-        "commit": "558a15f4ec7862ef1b841bb51c793ee11e2b1d9b",
-        "hash": "1021333893",
+        "commit": "79ea501cf1faf6ef326d6e580e3c3eba4cec3654",
+        "hash": "2113333674",
         "path": "outstatic/content/general/general-configuration.mdx"
       },
       "author": {
@@ -234,7 +234,7 @@
       "favicon": "",
       "footerLogo": "/images/horizontal-lockup---white-2x-I5Mz.webp",
       "phoneNumber": "519-589-1446",
-      "primaryLogo": "",
+      "primaryLogo": "/images/logo-horizontal-primary-Y2NT.svg",
       "publishedAt": "2025-05-17T04:00:00.000Z",
       "shareImage": "",
       "slug": "general-configuration",
