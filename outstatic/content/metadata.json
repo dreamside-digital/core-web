@@ -1,6 +1,6 @@
 {
-  "commit": "65dbf5acdea951b12002c2663a2bea8a5f4d011b",
-  "generated": "2025-05-18T01:28:56.123Z",
+  "commit": "ddf7d4fc578df8ddd6f6c53db763a5bd477bdf83",
+  "generated": "2025-05-18T01:33:49.405Z",
   "metadata": [
     {
       "__outstatic": {
@@ -17,22 +17,6 @@
       "slug": "hopeworks-foundation",
       "status": "draft",
       "title": "HopeWorks Foundation"
-    },
-    {
-      "__outstatic": {
-        "commit": "844abbb05e74592575fb7b53a289873b08658f77",
-        "hash": "3243141329",
-        "path": "outstatic/content/services/fundraising.mdx"
-      },
-      "author": {
-        "name": "Shay",
-        "picture": "https://avatars.githubusercontent.com/u/10519011?v=4"
-      },
-      "collection": "services",
-      "publishedAt": "2025-03-03T18:03:33.399Z",
-      "slug": "fundraising",
-      "status": "published",
-      "title": "Fundraising"
     },
     {
       "__outstatic": {
@@ -243,6 +227,22 @@
       "slug": "outreach",
       "status": "published",
       "title": "Development Officer"
+    },
+    {
+      "__outstatic": {
+        "commit": "ddf7d4fc578df8ddd6f6c53db763a5bd477bdf83",
+        "hash": "1187455090",
+        "path": "outstatic/content/services/fundraising.mdx"
+      },
+      "author": {
+        "name": "Shay",
+        "picture": "https://avatars.githubusercontent.com/u/10519011?v=4"
+      },
+      "collection": "services",
+      "publishedAt": "2025-03-03T18:03:33.399Z",
+      "slug": "fundraising",
+      "status": "published",
+      "title": "Strategic Planning"
     }
   ]
 }
