@@ -1,6 +1,6 @@
 {
-  "commit": "5e79d66b93e6e9db8531513014536ff619838781",
-  "generated": "2025-05-18T01:38:13.930Z",
+  "commit": "558a15f4ec7862ef1b841bb51c793ee11e2b1d9b",
+  "generated": "2025-05-18T01:47:07.635Z",
   "metadata": [
     {
       "__outstatic": {
@@ -154,34 +154,6 @@
     },
     {
       "__outstatic": {
-        "commit": "493c3543a0072641da0577994de0842548a79625",
-        "hash": "2888821453",
-        "path": "outstatic/content/general/general-configuration.mdx"
-      },
-      "author": {
-        "name": "Shay",
-        "picture": "https://avatars.githubusercontent.com/u/10519011?v=4"
-      },
-      "calendarLink": "https://calendly.com/shay-dreamsidedigital",
-      "collection": "general",
-      "ctaLink": "/contact",
-      "ctaText": "Book a Call",
-      "emailAddress": "liam@corephilanthropygroup.com",
-      "favicon": "",
-      "footerLogo": "",
-      "phoneNumber": "519-589-1446",
-      "primaryLogo": "",
-      "publishedAt": "2025-04-01T04:00:00.000Z",
-      "shareImage": "",
-      "slug": "general-configuration",
-      "smallLogo": "",
-      "status": "published",
-      "title": "General configuration",
-      "websiteDescription": "Our mission is to help you better understand, communicate with, and engage your core audiences.",
-      "websiteTitle": "CORE Philanthropy Group"
-    },
-    {
-      "__outstatic": {
         "commit": "65dbf5acdea951b12002c2663a2bea8a5f4d011b",
         "hash": "4073970427",
         "path": "outstatic/content/services/outreach.mdx"
@@ -243,6 +215,34 @@
       "slug": "green-horizons",
       "status": "draft",
       "title": "Green Horizons"
+    },
+    {
+      "__outstatic": {
+        "commit": "558a15f4ec7862ef1b841bb51c793ee11e2b1d9b",
+        "hash": "1021333893",
+        "path": "outstatic/content/general/general-configuration.mdx"
+      },
+      "author": {
+        "name": "Shay",
+        "picture": "https://avatars.githubusercontent.com/u/10519011?v=4"
+      },
+      "calendarLink": "https://calendly.com/shay-dreamsidedigital",
+      "collection": "general",
+      "ctaLink": "/contact",
+      "ctaText": "Book a Call",
+      "emailAddress": "liam@corephilanthropygroup.com",
+      "favicon": "",
+      "footerLogo": "/images/horizontal-lockup---white-2x-I5Mz.webp",
+      "phoneNumber": "519-589-1446",
+      "primaryLogo": "",
+      "publishedAt": "2025-05-17T04:00:00.000Z",
+      "shareImage": "",
+      "slug": "general-configuration",
+      "smallLogo": "",
+      "status": "published",
+      "title": "General configuration",
+      "websiteDescription": "Our mission is to help you better understand, communicate with, and engage your core audiences.",
+      "websiteTitle": "CORE Philanthropy Group"
     }
   ]
 }
