@@ -1,6 +1,6 @@
 {
-  "commit": "ddf7d4fc578df8ddd6f6c53db763a5bd477bdf83",
-  "generated": "2025-05-18T01:33:49.405Z",
+  "commit": "d5d7f48272d7a107d5e53a2b414276b7d6c5696c",
+  "generated": "2025-05-18T01:36:48.438Z",
   "metadata": [
     {
       "__outstatic": {
@@ -133,22 +133,6 @@
     },
     {
       "__outstatic": {
-        "commit": "b8c3f77cb8b2d73bc4c947dbd5b836c937871a09",
-        "hash": "2822797805",
-        "path": "outstatic/content/services/engagement.mdx"
-      },
-      "author": {
-        "name": "Shay",
-        "picture": "https://avatars.githubusercontent.com/u/10519011?v=4"
-      },
-      "collection": "services",
-      "publishedAt": "2025-04-17T04:00:00.000Z",
-      "slug": "engagement",
-      "status": "published",
-      "title": "Engagement"
-    },
-    {
-      "__outstatic": {
         "commit": "f4fd2439a7e875db281559f6fb13663cfd1ec526",
         "hash": "3767462455",
         "path": "outstatic/content/pages/home.md"
@@ -243,6 +227,22 @@
       "slug": "fundraising",
       "status": "published",
       "title": "Strategic Planning"
+    },
+    {
+      "__outstatic": {
+        "commit": "d5d7f48272d7a107d5e53a2b414276b7d6c5696c",
+        "hash": "2964146564",
+        "path": "outstatic/content/services/engagement.mdx"
+      },
+      "author": {
+        "name": "Shay",
+        "picture": "https://avatars.githubusercontent.com/u/10519011?v=4"
+      },
+      "collection": "services",
+      "publishedAt": "2025-04-17T04:00:00.000Z",
+      "slug": "engagement",
+      "status": "published",
+      "title": "Corporate Sponsorship"
     }
   ]
 }
