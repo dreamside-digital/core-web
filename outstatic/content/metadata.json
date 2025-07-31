@@ -1,6 +1,6 @@
 {
-  "commit": "79ea501cf1faf6ef326d6e580e3c3eba4cec3654",
-  "generated": "2025-05-18T01:51:00.783Z",
+  "commit": "931c14f1d67397fd8f7100c6c91f8b74e20c9608",
+  "generated": "2025-07-31T16:14:11.032Z",
   "metadata": [
     {
       "__outstatic": {
@@ -218,8 +218,8 @@
     },
     {
       "__outstatic": {
-        "commit": "79ea501cf1faf6ef326d6e580e3c3eba4cec3654",
-        "hash": "2113333674",
+        "commit": "931c14f1d67397fd8f7100c6c91f8b74e20c9608",
+        "hash": "814880341",
         "path": "outstatic/content/general/general-configuration.mdx"
       },
       "author": {
@@ -235,10 +235,10 @@
       "footerLogo": "/images/horizontal-lockup---white-2x-I5Mz.webp",
       "phoneNumber": "519-589-1446",
       "primaryLogo": "/images/logo-horizontal-primary-Y2NT.svg",
-      "publishedAt": "2025-05-17T04:00:00.000Z",
+      "publishedAt": "2025-07-31T04:00:00.000Z",
       "shareImage": "",
       "slug": "general-configuration",
-      "smallLogo": "",
+      "smallLogo": "/images/favicon-g1ND.svg",
       "status": "published",
       "title": "General configuration",
       "websiteDescription": "Our mission is to help you better understand, communicate with, and engage your core audiences.",
