@@ -1,6 +1,6 @@
 {
-  "commit": "d7f1cfc9fd290dea7a9338786e8efff271e26d75",
-  "generated": "2026-02-02T21:57:07.921Z",
+  "commit": "f97f30795bd16d9614fa36bff5ef27b6ddf5c9d9",
+  "generated": "2026-02-02T22:19:49.122Z",
   "metadata": [
     {
       "__outstatic": {
@@ -182,22 +182,6 @@
       "slug": "engagement",
       "status": "published",
       "title": "Corporate Sponsorship"
-    },
-    {
-      "__outstatic": {
-        "commit": "5e79d66b93e6e9db8531513014536ff619838781",
-        "hash": "780240311",
-        "path": "outstatic/content/case-studies/green-horizons.mdx"
-      },
-      "author": {
-        "name": "Shay",
-        "picture": "https://avatars.githubusercontent.com/u/10519011?v=4"
-      },
-      "collection": "case-studies",
-      "publishedAt": "2025-03-04T15:11:37.217Z",
-      "slug": "green-horizons",
-      "status": "draft",
-      "title": "Green Horizons"
     },
     {
       "__outstatic": {
