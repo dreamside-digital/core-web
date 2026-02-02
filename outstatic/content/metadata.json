@@ -1,6 +1,6 @@
 {
-  "commit": "2da0af3e6e78804fed6f5846da260c9a20ac23cb",
-  "generated": "2026-02-02T21:54:30.858Z",
+  "commit": "d7f1cfc9fd290dea7a9338786e8efff271e26d75",
+  "generated": "2026-02-02T21:57:07.921Z",
   "metadata": [
     {
       "__outstatic": {
@@ -226,23 +226,6 @@
       "title": "General configuration",
       "websiteDescription": "Our mission is to help you better understand, communicate with, and engage your core audiences.",
       "websiteTitle": "CORE Philanthropy Group"
-    },
-    {
-      "__outstatic": {
-        "commit": "2da0af3e6e78804fed6f5846da260c9a20ac23cb",
-        "hash": "3593538944",
-        "path": "outstatic/content/people/mike-wozniak.mdx"
-      },
-      "author": {
-        "name": "Shay",
-        "picture": "https://avatars.githubusercontent.com/u/10519011?v=4"
-      },
-      "collection": "people",
-      "photo": "",
-      "publishedAt": "2025-03-04T16:51:53.664Z",
-      "slug": "mike-wozniak",
-      "status": "draft",
-      "title": "Mike"
     }
   ]
 }
