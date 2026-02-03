@@ -1,6 +1,6 @@
 {
-  "commit": "6cc495f97de8fb550735942a8c39741c5df26224",
-  "generated": "2026-02-03T16:16:25.900Z",
+  "commit": "7ca3d2c48c38bf0a880a5c59edd9172de89ce05f",
+  "generated": "2026-02-03T16:16:52.157Z",
   "metadata": [
     {
       "__outstatic": {
@@ -210,23 +210,6 @@
       "title": "General configuration",
       "websiteDescription": "Our mission is to help you better understand, communicate with, and engage your core audiences.",
       "websiteTitle": "CORE Philanthropy Group"
-    },
-    {
-      "__outstatic": {
-        "commit": "6cc495f97de8fb550735942a8c39741c5df26224",
-        "hash": "2680233453",
-        "path": "outstatic/content/people/aubrey.mdx"
-      },
-      "author": {
-        "name": "Liam",
-        "picture": "https://avatars.githubusercontent.com/u/206244653?v=4"
-      },
-      "collection": "people",
-      "photo": "",
-      "publishedAt": "2026-02-03T15:45:30.464Z",
-      "slug": "aubrey",
-      "status": "published",
-      "title": "Aubrey"
     }
   ]
 }
