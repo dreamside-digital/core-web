@@ -1,6 +1,6 @@
 {
-  "commit": "a6a4d9fb364c9b24592eec9a850dcb252c97fd56",
-  "generated": "2026-02-03T16:16:07.490Z",
+  "commit": "6cc495f97de8fb550735942a8c39741c5df26224",
+  "generated": "2026-02-03T16:16:25.900Z",
   "metadata": [
     {
       "__outstatic": {
@@ -213,8 +213,8 @@
     },
     {
       "__outstatic": {
-        "commit": "a6a4d9fb364c9b24592eec9a850dcb252c97fd56",
-        "hash": "3949006591",
+        "commit": "6cc495f97de8fb550735942a8c39741c5df26224",
+        "hash": "2680233453",
         "path": "outstatic/content/people/aubrey.mdx"
       },
       "author": {
@@ -225,7 +225,7 @@
       "photo": "",
       "publishedAt": "2026-02-03T15:45:30.464Z",
       "slug": "aubrey",
-      "status": "draft",
+      "status": "published",
       "title": "Aubrey"
     }
   ]
