@@ -1,26 +1,10 @@
 {
-  "commit": "7ca3d2c48c38bf0a880a5c59edd9172de89ce05f",
-  "generated": "2026-02-03T16:16:52.157Z",
+  "commit": "",
+  "generated": "Tue, 03 Feb 2026 16:23:41 GMT",
   "metadata": [
     {
       "__outstatic": {
-        "commit": "19553029dcd6a1645e22d30fbd5ef14cec9ceeeb",
-        "hash": "3036207999",
-        "path": "outstatic/content/case-studies/hopeworks-foundation.mdx"
-      },
-      "author": {
-        "name": "Shay",
-        "picture": "https://avatars.githubusercontent.com/u/10519011?v=4"
-      },
-      "collection": "case-studies",
-      "publishedAt": "2025-03-03T18:04:20.006Z",
-      "slug": "hopeworks-foundation",
-      "status": "draft",
-      "title": "HopeWorks Foundation"
-    },
-    {
-      "__outstatic": {
-        "commit": "753ad7cbfcd48eb6e51ad56b971edd92ba8a111e",
+        "commit": "f61dc9c96945266d50fd2fbaaf908ac2cd59874d",
         "hash": "2500710420",
         "path": "outstatic/content/pages/about.mdx"
       },
@@ -36,23 +20,23 @@
     },
     {
       "__outstatic": {
-        "commit": "fa6eee7e93f8df8626b664f06e6a188fa3368fb1",
-        "hash": "1509201887",
-        "path": "outstatic/content/pages/contact.mdx"
+        "commit": "a100d2a439385cb97be5e86d3702b98078370995",
+        "hash": "3938435443",
+        "path": "outstatic/content/pages/how-we-work.mdx"
       },
       "author": {
         "name": "Shay",
         "picture": "https://avatars.githubusercontent.com/u/10519011?v=4"
       },
       "collection": "pages",
-      "publishedAt": "2025-03-03T18:22:22.554Z",
-      "slug": "contact",
+      "publishedAt": "2025-03-04T17:12:41.294Z",
+      "slug": "how-we-work",
       "status": "published",
-      "title": "Let's Talk"
+      "title": "How We Work"
     },
     {
       "__outstatic": {
-        "commit": "9cfc249edb00f1b672bd0d63ce4de10b017fc4b1",
+        "commit": "47f5407766a03ae294f0b2d416c841f928e4c44d",
         "hash": "3991129838",
         "path": "outstatic/content/posts/expand-and-diversify.md"
       },
@@ -83,24 +67,23 @@
     },
     {
       "__outstatic": {
-        "commit": "5777247e6b4f3bb94de60ca62d317587d4e1da64",
-        "hash": "3286239375",
-        "path": "outstatic/content/people/liam-epps.mdx"
+        "commit": "3259b67b8a60b769ad7e60616763ad06acabbd43",
+        "hash": "1509201887",
+        "path": "outstatic/content/pages/contact.mdx"
       },
       "author": {
         "name": "Shay",
         "picture": "https://avatars.githubusercontent.com/u/10519011?v=4"
       },
-      "collection": "people",
-      "photo": "",
-      "publishedAt": "2025-03-04T16:50:44.339Z",
-      "slug": "liam-epps",
+      "collection": "pages",
+      "publishedAt": "2025-03-03T18:22:22.554Z",
+      "slug": "contact",
       "status": "published",
-      "title": "Liam"
+      "title": "Let's Talk"
     },
     {
       "__outstatic": {
-        "commit": "f4fd2439a7e875db281559f6fb13663cfd1ec526",
+        "commit": "cbf35f44c03bda0e7dde8598fa1c9dff62e1f5be",
         "hash": "3767462455",
         "path": "outstatic/content/pages/home.md"
       },
@@ -121,55 +104,7 @@
     },
     {
       "__outstatic": {
-        "commit": "c01a965050aec7ce5490ffa16fb7614cba084024",
-        "hash": "3938435443",
-        "path": "outstatic/content/pages/how-we-work.mdx"
-      },
-      "author": {
-        "name": "Shay",
-        "picture": "https://avatars.githubusercontent.com/u/10519011?v=4"
-      },
-      "collection": "pages",
-      "publishedAt": "2025-03-04T17:12:41.294Z",
-      "slug": "how-we-work",
-      "status": "published",
-      "title": "How We Work"
-    },
-    {
-      "__outstatic": {
-        "commit": "65dbf5acdea951b12002c2663a2bea8a5f4d011b",
-        "hash": "4073970427",
-        "path": "outstatic/content/services/outreach.mdx"
-      },
-      "author": {
-        "name": "Shay",
-        "picture": "https://avatars.githubusercontent.com/u/10519011?v=4"
-      },
-      "collection": "services",
-      "publishedAt": "2025-03-03T21:58:53.098Z",
-      "slug": "outreach",
-      "status": "published",
-      "title": "Development Officer"
-    },
-    {
-      "__outstatic": {
-        "commit": "ddf7d4fc578df8ddd6f6c53db763a5bd477bdf83",
-        "hash": "1187455090",
-        "path": "outstatic/content/services/fundraising.mdx"
-      },
-      "author": {
-        "name": "Shay",
-        "picture": "https://avatars.githubusercontent.com/u/10519011?v=4"
-      },
-      "collection": "services",
-      "publishedAt": "2025-03-03T18:03:33.399Z",
-      "slug": "fundraising",
-      "status": "published",
-      "title": "Strategic Planning"
-    },
-    {
-      "__outstatic": {
-        "commit": "842c1f48ff5e72912867e8856cbc883b48c83fa3",
+        "commit": "b659290dd9743b93c8977570f7db255041557e1f",
         "hash": "4100652226",
         "path": "outstatic/content/services/engagement.mdx"
       },
@@ -185,7 +120,7 @@
     },
     {
       "__outstatic": {
-        "commit": "931c14f1d67397fd8f7100c6c91f8b74e20c9608",
+        "commit": "f900bba2c34fdaa43d37c6435a1157895c818f90",
         "hash": "814880341",
         "path": "outstatic/content/general/general-configuration.mdx"
       },
@@ -210,6 +145,71 @@
       "title": "General configuration",
       "websiteDescription": "Our mission is to help you better understand, communicate with, and engage your core audiences.",
       "websiteTitle": "CORE Philanthropy Group"
+    },
+    {
+      "__outstatic": {
+        "commit": "da858ec8e89b0439f8b092ce7d7744a894239015",
+        "hash": "3036207999",
+        "path": "outstatic/content/case-studies/hopeworks-foundation.mdx"
+      },
+      "author": {
+        "name": "Shay",
+        "picture": "https://avatars.githubusercontent.com/u/10519011?v=4"
+      },
+      "collection": "case-studies",
+      "publishedAt": "2025-03-03T18:04:20.006Z",
+      "slug": "hopeworks-foundation",
+      "status": "draft",
+      "title": "HopeWorks Foundation"
+    },
+    {
+      "__outstatic": {
+        "commit": "e35d5f05b7a059327adbb5a8ec32c03fa1ef2bfe",
+        "hash": "3286239375",
+        "path": "outstatic/content/people/liam-epps.mdx"
+      },
+      "author": {
+        "name": "Shay",
+        "picture": "https://avatars.githubusercontent.com/u/10519011?v=4"
+      },
+      "collection": "people",
+      "photo": "",
+      "publishedAt": "2025-03-04T16:50:44.339Z",
+      "slug": "liam-epps",
+      "status": "published",
+      "title": "Liam"
+    },
+    {
+      "__outstatic": {
+        "commit": "f83d150a15859d08c3f50dde74a2fa76da24d46b",
+        "hash": "4073970427",
+        "path": "outstatic/content/services/outreach.mdx"
+      },
+      "author": {
+        "name": "Shay",
+        "picture": "https://avatars.githubusercontent.com/u/10519011?v=4"
+      },
+      "collection": "services",
+      "publishedAt": "2025-03-03T21:58:53.098Z",
+      "slug": "outreach",
+      "status": "published",
+      "title": "Development Officer"
+    },
+    {
+      "__outstatic": {
+        "commit": "1d6c03cf316177a540f2c9c61e03a532be033eb7",
+        "hash": "1187455090",
+        "path": "outstatic/content/services/fundraising.mdx"
+      },
+      "author": {
+        "name": "Shay",
+        "picture": "https://avatars.githubusercontent.com/u/10519011?v=4"
+      },
+      "collection": "services",
+      "publishedAt": "2025-03-03T18:03:33.399Z",
+      "slug": "fundraising",
+      "status": "published",
+      "title": "Strategic Planning"
     }
   ]
 }
