@@ -1,6 +1,6 @@
 {
-  "commit": "98ec17b5ece9a74f47db30e51e9938368ac7914b",
-  "generated": "2026-02-03T16:26:09.336Z",
+  "commit": "5a916aaf221fac1f5ca7b67b3209a34962cd9dc6",
+  "generated": "2026-02-03T16:26:14.253Z",
   "metadata": [
     {
       "__outstatic": {
@@ -197,8 +197,8 @@
     },
     {
       "__outstatic": {
-        "commit": "98ec17b5ece9a74f47db30e51e9938368ac7914b",
-        "hash": "431640023",
+        "commit": "5a916aaf221fac1f5ca7b67b3209a34962cd9dc6",
+        "hash": "2879823950",
         "path": "outstatic/content/case-studies/hopeworks-foundation.mdx"
       },
       "author": {
@@ -208,7 +208,7 @@
       "collection": "case-studies",
       "publishedAt": "2025-03-03T18:04:20.006Z",
       "slug": "hopeworks-foundation",
-      "status": "draft",
+      "status": "published",
       "title": "Hope-Works Foundation"
     }
   ]
