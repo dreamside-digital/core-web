@@ -11,7 +11,7 @@
     "@formspree/react": "^2.5.4",
     "date-fns": "^2.30.0",
     "gray-matter": "^4.0.3",
-    "next": "15.2.1",
+    "next": "15.2.8",
     "outstatic": "2.0.0-canary.2",
     "react": "^18",
     "react-dom": "^18",
