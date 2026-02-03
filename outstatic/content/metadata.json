@@ -1,6 +1,6 @@
 {
-  "commit": "",
-  "generated": "Tue, 03 Feb 2026 16:23:41 GMT",
+  "commit": "98ec17b5ece9a74f47db30e51e9938368ac7914b",
+  "generated": "2026-02-03T16:26:09.336Z",
   "metadata": [
     {
       "__outstatic": {
@@ -148,22 +148,6 @@
     },
     {
       "__outstatic": {
-        "commit": "da858ec8e89b0439f8b092ce7d7744a894239015",
-        "hash": "3036207999",
-        "path": "outstatic/content/case-studies/hopeworks-foundation.mdx"
-      },
-      "author": {
-        "name": "Shay",
-        "picture": "https://avatars.githubusercontent.com/u/10519011?v=4"
-      },
-      "collection": "case-studies",
-      "publishedAt": "2025-03-03T18:04:20.006Z",
-      "slug": "hopeworks-foundation",
-      "status": "draft",
-      "title": "HopeWorks Foundation"
-    },
-    {
-      "__outstatic": {
         "commit": "e35d5f05b7a059327adbb5a8ec32c03fa1ef2bfe",
         "hash": "3286239375",
         "path": "outstatic/content/people/liam-epps.mdx"
@@ -210,6 +194,22 @@
       "slug": "fundraising",
       "status": "published",
       "title": "Strategic Planning"
+    },
+    {
+      "__outstatic": {
+        "commit": "98ec17b5ece9a74f47db30e51e9938368ac7914b",
+        "hash": "431640023",
+        "path": "outstatic/content/case-studies/hopeworks-foundation.mdx"
+      },
+      "author": {
+        "name": "Shay",
+        "picture": "https://avatars.githubusercontent.com/u/10519011?v=4"
+      },
+      "collection": "case-studies",
+      "publishedAt": "2025-03-03T18:04:20.006Z",
+      "slug": "hopeworks-foundation",
+      "status": "draft",
+      "title": "Hope-Works Foundation"
     }
   ]
 }
